@@ -1,0 +1,13 @@
+# RQ4 -- Scopus
+#
+# What strategies are used to mitigate vulnerabilities in RESTful APIs?
+#
+# Form: as published with the review
+#
+# Paste the block below into the TITLE-ABS-KEY field of Scopus. Line breaks are for
+# reading only; the interface treats the string as one line.
+
+TITLE-ABS-KEY("REST* API*" OR "Cloud* API*" OR "Web API*") AND TITLE-ABS-
+KEY(vulnerabilit* OR "security threat*" OR "attack*") AND TITLE-ABS-KEY("mitigation
+strateg*" OR "security framework*" OR "defense mechanis*" OR "vulnerability management"
+OR "risk reduction" OR "countermeasure*" OR "hardening technique*" OR "secure design")

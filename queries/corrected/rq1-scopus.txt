@@ -1,0 +1,17 @@
+# RQ1 -- Scopus
+#
+# What mutation operators have been developed and used for testing the security of RESTful APIs?
+#
+# Form: corrected after the 2026-08-03 audit
+# Change: Interface block widened to web services and microservices; document-type and language filters made explicit.
+#
+# Paste the block below into the TITLE-ABS-KEY field of Scopus. Line breaks are for
+# reading only; the interface treats the string as one line.
+
+TITLE-ABS-KEY("mutation testing" OR "mutation analysis" OR "mutation operator*" OR
+"mutant*" OR "mutation score" OR "mutation adequacy") AND TITLE-ABS-KEY("REST API" OR
+"RESTful API" OR "web API" OR "cloud API" OR "HTTP API" OR "web service*" OR
+"microservice*" OR "API security" OR "API testing" OR "OpenAPI" OR "service
+composition") AND TITLE-ABS-KEY(security* OR vulnerabilit* OR privac* OR misconfigur*)
+AND PUBYEAR > 1999 AND PUBYEAR < 2027 AND (DOCTYPE(ar) OR DOCTYPE(cp) OR DOCTYPE(re) OR
+DOCTYPE(ch)) AND LANGUAGE(english)

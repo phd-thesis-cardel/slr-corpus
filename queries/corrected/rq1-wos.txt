@@ -1,0 +1,15 @@
+# RQ1 -- Web of Science
+#
+# What mutation operators have been developed and used for testing the security of RESTful APIs?
+#
+# Form: corrected after the 2026-08-03 audit
+# Change: Interface block widened to web services and microservices; document-type and language filters made explicit.
+#
+# Paste the block below into the TS field of Web of Science. Line breaks are for
+# reading only; the interface treats the string as one line.
+
+TS=("mutation testing" OR "mutation analysis" OR "mutation operator*" OR "mutant*" OR
+"mutation score" OR "mutation adequacy") AND TS=("REST API" OR "RESTful API" OR "web
+API" OR "cloud API" OR "HTTP API" OR "web service*" OR "microservice*" OR "API security"
+OR "API testing" OR "OpenAPI" OR "service composition") AND TS=(security* OR
+vulnerabilit* OR privac* OR misconfigur*) AND PY=(2000-2026)

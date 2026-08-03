@@ -1,0 +1,16 @@
+# RQ4 -- Web of Science
+#
+# What strategies are used to mitigate vulnerabilities in RESTful APIs?
+#
+# Form: corrected after the 2026-08-03 audit
+# Change: Interface block widened; filters made explicit.
+#
+# Paste the block below into the TS field of Web of Science. Line breaks are for
+# reading only; the interface treats the string as one line.
+
+TS=("REST API" OR "RESTful API" OR "web API" OR "cloud API" OR "HTTP API" OR "web
+service*" OR "microservice*" OR "API security" OR "API testing" OR "OpenAPI" OR "service
+composition") AND TS=(vulnerabilit* OR "security threat*" OR attack*) AND
+TS=("mitigation strateg*" OR "security framework*" OR "defense mechanis*" OR
+"vulnerability management" OR "risk reduction" OR countermeasure* OR "hardening
+technique*" OR "secure design" OR "security control*") AND PY=(2000-2026)

@@ -47,16 +47,33 @@ corrected query brings back.
 |---|---|---|---|---|
 | RQ1 | 18 | 13/13 | 1/4 | corrected |
 | RQ2 | 27 | 11/13 | 0/11 | corrected |
-| RQ3 | 214 | 18/28 | 8/12 | not resolved |
-| RQ4 | 99 | 2/2 | 1/3 | improved |
-| RQ5 | — | — | — | not resolved |
+| RQ3 | 3778 | 26/28 | 12/12 | too broad |
+| RQ4 | 478 | 2/2 | 1/1 | too broad |
+| RQ5 | 149 | 1/9 | 0/18 | recall lost |
 
-For RQ3 and RQ5 no candidate reached an acceptable trade-off. Every variant
-either returned thousands of records or lost half the retained corpus. The reason
-is structural rather than a matter of term choice: a corpus assembled with a
-loose net and reduced by screening is not recoverable by a tight net. Reproducing
-it requires the screening decisions, which is why they are published in
+The figures are computed from the result sets deposited in this repository and
+can be recomputed. Narrower variants were tried for the last three questions. A
+tighter RQ3 came down to 214 records but recall fell to 18/28, and a tighter RQ4
+came down to 99 while holding recall; neither result set was retained, so neither
+appears above. No variant of RQ5 reached an acceptable trade-off: every candidate
+either returned thousands of records or recovered one of the nine studies the
+database search had found.
+
+The reason is structural rather than a matter of term choice. A corpus assembled
+with a loose net and then reduced by screening is not recoverable by a tight net.
+Reproducing it takes the screening decisions, which is why they are published in
 `../data/screening_decisions.json` rather than left implicit in a query string.
 
-Machine-readable strings are in `queries.py` (published) and `queries_v2.py`
-(corrected), both under `../scripts/`.
+## Files
+
+`published/` and `corrected/` hold one plain-text file per question per
+database, ready to paste into the Scopus or Web of Science interface. Each
+carries the question it answers and, in the corrected set, the change that was
+made and why.
+
+`queries.json` carries both forms as one machine-readable document.
+
+The executable definitions the pipeline runs are `../scripts/queries.py` and
+`../scripts/queries_v2.py`; `../scripts/export_queries.py` regenerates
+everything in this directory from them, so the text files cannot drift from the
+strings that actually execute.

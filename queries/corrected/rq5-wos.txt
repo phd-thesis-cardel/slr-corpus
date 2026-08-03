@@ -1,0 +1,15 @@
+# RQ5 -- Web of Science
+#
+# What are the most common security misconfigurations encountered during the development of RESTful APIs?
+#
+# Form: corrected after the 2026-08-03 audit
+# Change: A security block is now required. The original query paired configuration* with development*, both generic enough that any paper mentioning a REST API and its deployment matched; this is the query that admitted the largest share of off-topic records.
+#
+# Paste the block below into the TS field of Web of Science. Line breaks are for
+# reading only; the interface treats the string as one line.
+
+TS=("REST API" OR "RESTful API" OR "web API" OR "cloud API" OR "HTTP API" OR "web
+service*" OR "microservice*" OR "API security" OR "API testing" OR "OpenAPI" OR "service
+composition") AND TS=("security misconfiguration*" OR misconfigur* OR "insecure
+configuration*" OR "security configuration*" OR hardening) AND TS=(securit* OR
+vulnerabilit* OR exposure* OR attack*) AND PY=(2000-2026)
