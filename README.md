@@ -40,7 +40,7 @@ Digital Object Identifier.
 | `data/primary-studies.bib` | The same studies as BibTeX, keyed `S1` to `S114` |
 | `data/screening_decisions.json` | All 160 retrieved studies with the decision on each, the reason, and a verbatim fragment of the source behind every exclusion |
 | `data/*.csv` | The aggregates behind each figure: per year, per venue, per document type, per question, per keyword, per author |
-| `queries/` | The search string for each question and each database |
+|  `queries/` | The search string for each question and each database |
 | `figures/` | The bibliometric figures |
 | `scripts/` | The pipeline that produces all of the above |
 |  `docs/screening-evidence.md` | The excluded studies grouped by question, each with its evidence |
@@ -53,7 +53,7 @@ without touching a database:
 ```bash
 pip install pandas matplotlib networkx
 
-python3 scripts/rebuild_author_aggregates.py    # author and co-authorship tables
+python3 scripts/rebuild_author_aggregates.py   # author and co-authorship tables
 python3 scripts/export_screening_evidence.py   # evidence document
 ```
 
