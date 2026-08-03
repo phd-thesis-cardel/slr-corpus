@@ -1,12 +1,12 @@
-"""Measure how large a full re-run of the five SLR queries would be.
+"""Measure how many records each of the five queries returns.
 
-Costs one request per query per database (10 total). The Web of Science
-Starter API allows 50 requests per day and one per second, so knowing the
-result-set sizes before paginating is the difference between a planned
-re-run and an exhausted daily quota.
+Costs one request per query per database, ten in total. The Web of Science
+Starter API allows fifty requests per day and one per second, so knowing the
+result-set sizes before paginating is the difference between a planned run and
+an exhausted daily quota.
 
 Usage:
-    bash containers/run.sh slr-update python scripts/slr-update/probe_totals.py
+    python3 scripts/probe_totals.py
 """
 
 from __future__ import annotations
@@ -27,7 +27,7 @@ WOS_URL = "https://api.clarivate.com/apis/wos-starter/v1/documents"
 SCOPUS_PAGE = 25   # records per Scopus page (API maximum for the standard key)
 WOS_PAGE = 50      # records per WoS Starter page (API maximum)
 
-# The search window declared in the review.
+# The search window of the review.
 YEAR_FROM, YEAR_TO = 2000, 2026
 
 
@@ -129,7 +129,7 @@ def main() -> int:
     if quota_left is not None and w_pages > int(quota_left):
         print(
             f"  WARNING: paginating WoS needs {w_pages} requests but only "
-            f"{quota_left} remain today; the re-run must span more than one day."
+            f"{quota_left} remain today; the run must span more than one day."
         )
 
     out = os.path.join(os.path.dirname(os.path.abspath(__file__)), "probe_totals.json")

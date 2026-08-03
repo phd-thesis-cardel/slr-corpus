@@ -1,13 +1,9 @@
 #!/usr/bin/env python3
-"""
-Rebuild the author-level aggregates from the current corpus.
+"""Rebuild the author-level aggregates from the corpus.
 
-authors_long.csv, autores_mas_productivos.csv and coautoria_edge_list.csv were
-last derived on 2026-05-03, before the August 2026 citation-index pass and
-before the language exclusion. The figures built from them therefore described
-a corpus that no longer exists. This script re-derives all three from
-the deposited corpus so that every author-level figure covers the same records
-as the rest of the bibliometric analysis.
+Derives authors_long.csv, autores_mas_productivos.csv and coautoria_edge_list.csv
+from the corpus, so that every author-level figure covers the same records as
+the rest of the bibliometric analysis.
 
 Author strings are taken from the "Authors" field and split on ";". Records
 without an author field are skipped and reported. Co-authorship edges are

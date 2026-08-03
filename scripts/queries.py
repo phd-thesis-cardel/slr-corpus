@@ -3,21 +3,14 @@ Search queries for the 5 research questions, adapted per API.
 
 Each query is a dict with:
   - rq: research question identifier (RQ1..RQ5)
-  - openalex: query string for OpenAlex search API
   - scopus: query string for Scopus TITLE-ABS-KEY syntax
-  - wos: query string for Web of Science TS= syntax (for future use)
+  - wos: query string for Web of Science TS= syntax
 """
 
 QUERIES = [
     {
         "rq": "RQ1",
         "description": "What mutation operators have been developed and used for testing the security of RESTful APIs?",
-        "openalex": (
-            '("mutation testing" OR "mutation analysis" OR "mutation operator" '
-            'OR "software mutation" OR "program mutation" OR "mutant generation") '
-            'AND (("REST" AND "API") OR "web API" OR "HTTP API" OR "cloud API") '
-            'AND (security OR vulnerability OR privacy OR authorization OR authentication OR "access control")'
-        ),
         "scopus": (
             'TITLE-ABS-KEY("mutation testing" OR "mutation operator*" OR "software mutation*" '
             'OR "program mutation*" OR "mutation analysis") '
@@ -34,12 +27,6 @@ QUERIES = [
     {
         "rq": "RQ2",
         "description": "What limitations or challenges are associated with current mutation operators?",
-        "openalex": (
-            '("mutation testing" OR "mutation operator" OR "software mutation" '
-            'OR "program mutation" OR "mutation analysis") '
-            'AND ("REST API" OR "cloud API" OR "web API") '
-            'AND (limitation OR challenge OR drawback OR issue)'
-        ),
         "scopus": (
             'TITLE-ABS-KEY("mutation testing" OR "mutation operator*" OR "software mutation*" '
             'OR "program mutation*" OR "mutation analysis") '
@@ -56,11 +43,6 @@ QUERIES = [
     {
         "rq": "RQ3",
         "description": "What factors contribute to finding vulnerabilities in RESTful API services?",
-        "openalex": (
-            '("REST API" OR "cloud API" OR "web API") '
-            'AND (vulnerability OR "security flaw" OR exploit OR attack) '
-            'AND (cause OR factor OR source)'
-        ),
         "scopus": (
             'TITLE-ABS-KEY("REST* API*" OR "Cloud* API*" OR "Web API*") '
             'AND TITLE-ABS-KEY("vulnerability" OR "security flaw" OR "exploit" OR "attack") '
@@ -75,13 +57,6 @@ QUERIES = [
     {
         "rq": "RQ4",
         "description": "What strategies are used to mitigate vulnerabilities in RESTful APIs?",
-        "openalex": (
-            '("REST API" OR "cloud API" OR "web API") '
-            'AND (vulnerability OR "security threat" OR attack) '
-            'AND ("mitigation strategy" OR "security framework" OR "defense mechanism" '
-            'OR "vulnerability management" OR "risk reduction" OR countermeasure '
-            'OR "hardening technique" OR "secure design")'
-        ),
         "scopus": (
             'TITLE-ABS-KEY("REST* API*" OR "Cloud* API*" OR "Web API*") '
             'AND TITLE-ABS-KEY(vulnerabilit* OR "security threat*" OR "attack*") '
@@ -100,11 +75,6 @@ QUERIES = [
     {
         "rq": "RQ5",
         "description": "What are the most common security misconfigurations encountered during the development of RESTful APIs?",
-        "openalex": (
-            '("RESTful API" OR "REST API") '
-            'AND ("security misconfiguration" OR configuration) '
-            'AND (development OR SDLC OR DevOps OR DevSecOps OR standard)'
-        ),
         "scopus": (
             'TITLE-ABS-KEY("RESTful API" OR "REST API") '
             'AND TITLE-ABS-KEY("securit* misconfiguration*" OR configuration*) '
