@@ -35,7 +35,7 @@ questions each, which is why the assignments exceed the study count. By
 provenance: 65 assignments from the database queries, 34 from citation chasing,
 15 from the citation index.
 
-Every included study carries a publication venue and 103 of the 112 carry a
+Every included study carries a publication venue and 101 of the 112 carry a
 Digital Object Identifier. Venues absent from the unified corpus were recovered
 from the raw exports and, failing that, from the DOI registry; one truncated
 identifier was repaired against a title search.
