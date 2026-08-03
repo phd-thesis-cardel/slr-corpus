@@ -2,5 +2,5 @@ RQ,count,mean,median,max
 RQ1: Mutation operators,21,12.619047619047619,4.0,92
 RQ2: Limitations & challenges,18,11.61111111111111,6.5,52
 RQ3: Vulnerability factors,50,13.12,1.5,180
-RQ4: Mitigation strategies,10,5.4,2.5,20
+RQ4: Mitigation strategies,12,8.666666666666666,5.5,35
 RQ5: Security misconfigurations,15,4.4,2.0,19

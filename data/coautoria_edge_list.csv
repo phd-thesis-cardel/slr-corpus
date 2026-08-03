@@ -103,6 +103,11 @@ Author1,Author2,Weight
 "A.N., Senarathne, Amila Nuwan","U., Dharmakeerthi, Uditha",1
 "Adnan, Muhammad Abdullah","Khan, Md Shohel",1
 "Adnan, Muhammad Abdullah","Siam, Rubaiyat Sha Fardin",1
+"Ahmad, Shahnawaz","Alsubaie, Najah",1
+"Ahmad, Shahnawaz","Mehfuz, Shabana",1
+"Ahmad, Shahnawaz","Urooj, Shabana",1
+"Alsubaie, Najah","Mehfuz, Shabana",1
+"Alsubaie, Najah","Urooj, Shabana",1
 "Arumugam, Ashwin Senthil","Hussain, Syed Rafiul",1
 "Arumugam, Ashwin Senthil","K S, Sathiyajith",1
 "Arumugam, Ashwin Senthil","Yang, Tianchang",1
@@ -144,6 +149,10 @@ Author1,Author2,Weight
 "Basney, J.","Dooley, R.",1
 "Basney, J.","Stubbs, J.",1
 "Baucas, M.J.","Spachos, P.",1
+"Bhat, K. Vivekananda","Das, Ashok Kumar",1
+"Bhat, K. Vivekananda","Rajarajan, Muttukrishnan",1
+"Bhat, K. Vivekananda","Rodrigues, Joel J. P. C.",1
+"Bhat, K. Vivekananda","Sivaselvan, N.",1
 "Bogner, Justus","Kotstein, Sebastian",1
 "Bogner, Justus","Pfaff, Timo",1
 "Bondoc, R.X.R.","Lat, J.A.S.",1
@@ -307,6 +316,9 @@ Author1,Author2,Weight
 "Dai, Jinqiao","Shao, Jiang",1
 "Dai, Jinqiao","Shen, Changxiang",1
 "Dai, Jinqiao","Zheng, Tao",1
+"Das, Ashok Kumar","Rajarajan, Muttukrishnan",1
+"Das, Ashok Kumar","Rodrigues, Joel J. P. C.",1
+"Das, Ashok Kumar","Sivaselvan, N.",1
 "Delinschi, Daniela","Erdei, Rudolf",1
 "Delinschi, Daniela","Matei, Oliviu",1
 "Delinschi, Daniela","Pasca, Emil Marian",1
@@ -578,6 +590,7 @@ Author1,Author2,Weight
 "Ma, Shuoyoucheng","Yang, Wantong",1
 "Ma, Shuoyoucheng","Zhou, Yuan",1
 "Matei, Oliviu","Pasca, Emil Marian",1
+"Mehfuz, Shabana","Urooj, Shabana",1
 "Meng, Wei","Zhang, Chao",1
 "Morales, A.F.","Valencia, R.E.C.",1
 "Morales, A.F.","Villegas, A.C.",1
@@ -649,9 +662,12 @@ Author1,Author2,Weight
 "R.R., Abdullah, Roni Reza","S., Yulianto, Semi",1
 "R.S., Attia, Riham Salah","W.I., Khedr, Walid I.",1
 "Raga, Miquel Martínez","Vieira, Marco",1
+"Rajarajan, Muttukrishnan","Rodrigues, Joel J. P. C.",1
+"Rajarajan, Muttukrishnan","Sivaselvan, N.",1
 "Ribeiro, Márcio","Rocha, João Vitor Souza",1
 "Ribeiro, Márcio","Wiese, Igor",1
 "Rocha, João Vitor Souza","Wiese, Igor",1
+"Rodrigues, Joel J. P. C.","Sivaselvan, N.",1
 "S., Hettiarachchi, Saman","S., Malalgoda, Sanjeewa",1
 "S., Hettiarachchi, Saman","T., Madusanka, Tiroshan",1
 "S., Hettiarachchi, Saman","T.D., Jayawickrama, Thamindu D.",1

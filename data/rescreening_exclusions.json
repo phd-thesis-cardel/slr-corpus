@@ -320,19 +320,5 @@
   "year": "2014",
   "reason": "IoT/M2M middleware architecture paper; the RESTful API is an interoperability feature and the self-configuration discussed is autonomic device management, not security or testing.",
   "evidence": "\"we propose the open source OM2 M project, an autonomic ETSI-compliant M2 M service platform... OM2 M provides a RESTful API to enhance interoperability\"; keywords \"ETSI M2 M; Internet of Things; Autonomic Computing; Self-configuration\"."
- },
- {
-  "title_key": "machinelearningbasedintelligentsecurityframeworkforsecurecloudkeymanagement",
-  "title": "Machine learning-based intelligent security framework for secure cloud key management",
-  "year": "2024",
-  "reason": "Cryptographic key management for cloud environments; security, but not of APIs or web services, and no mutation testing.",
-  "evidence": "Title \"Machine learning-based intelligent security framework for secure cloud key management\" (Cluster Computing, 2024); no abstract or keywords, but the title situates the topic squarely in cloud key management."
- },
- {
-  "title_key": "suacciotsecureunifiedauthenticationandaccesscontrolsystembasedoncapabilityforiot",
-  "title": "SUACC-IoT: secure unified authentication and access control system based on capability for IoT",
-  "year": "2022",
-  "reason": "Borderline but off-scope: the object of study is a capability-based authentication and access control protocol for IoT devices, not testing or security evaluation of APIs, web services, or mutation testing; the parent should re-check if the paper turns out to target RESTful service invocation.",
-  "evidence": "Title: \"secure unified authentication and access control system based on capability for IoT\"; venue Cluster Computing"
  }
 ]

@@ -26,16 +26,16 @@ fulfilment of PRISMA 2020 item 17.
 |---|---|
 | Records identified | 300 |
 | Retrieved and screened | 160 |
-| Included after screening | **112** |
-| Excluded at re-screening | 48 |
-| Research-question assignments | 114 |
+| Included after screening | **114** |
+| Excluded at re-screening | 46 |
+| Research-question assignments | 116 |
 
-Per question: RQ1 21, RQ2 18, RQ3 50, RQ4 10, RQ5 15. Two studies address two
+Per question: RQ1 21, RQ2 18, RQ3 50, RQ4 12, RQ5 15. Two studies address two
 questions each, which is why the assignments exceed the study count. By
-provenance: 65 assignments from the database queries, 34 from citation chasing,
+provenance: 65 assignments from the database queries, 36 from citation chasing,
 15 from the citation index.
 
-Every included study carries a publication venue and 101 of the 112 carry a
+Every included study carries a publication venue and 103 of the 114 carry a
 Digital Object Identifier. Venues absent from the unified corpus were recovered
 from the raw exports and, failing that, from the DOI registry; one truncated
 identifier was repaired against a title search.
@@ -76,9 +76,13 @@ subject of this review. Without a software-testing anchor the search retrieved
 cloud task-scheduling papers, QoS service-composition papers solved by genetic
 algorithms, and one paper on RNA secondary-structure comparison.
 
-Forty-eight of the one hundred and sixty screened records fall outside the
+Forty-six of the one hundred and sixty screened records fall outside the
 review's own exclusion criteria on this basis or on the equally generic third
-block of the misconfiguration query. Every one of them is listed in
+block of the misconfiguration query. Two further records were withdrawn in a
+first pass and reinstated: both were judged on title alone, no abstract being
+available, and the review itself cites them as evidence on dynamic authorization
+and transport encryption for REST API calls. A decision that the argument of the
+review contradicts is a decision to revisit. Every one of them is listed in
 `docs/rescreening-evidence.md` with the abstract fragment that decided it, and
 each proposed exclusion was given to an independent adjudicator instructed to
 rescue it if any honest reading placed it inside scope. Nine were rescued and

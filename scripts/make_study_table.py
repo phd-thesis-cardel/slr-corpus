@@ -407,8 +407,10 @@ questions at once and therefore appear once in the table with both labels in the
 RQ column. Of the %(n_studies)d studies, %(n_doi)d carry a Digital Object
 Identifier; the remaining %(n_nodoi)d are indexed without one, and their DOI cell is
 left empty rather than filled with a substitute. Venue names are given in short
-form, with \textit{arXiv} standing for a preprint, and a study whose source
-record carries no venue field leaves that cell empty. Titles are given in full;
+form, with \textit{arXiv} standing for a preprint. Every included study carries
+a venue: the cells the unified corpus left empty were recovered from the
+conference-name and abbreviated-title fields of the source exports and, where
+those were silent, from the Digital Object Identifier registry. Titles are given in full;
 where a source record truncated the title, the deposited artifact records the
 truncation rather than repairing it silently. Studies are ordered by
 first author and then by year of publication.
