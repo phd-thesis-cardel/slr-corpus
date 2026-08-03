@@ -16,7 +16,8 @@ fulfilment of PRISMA 2020 item 17.
 | `queries/` | Search strings per research question, per database, in both the originally executed and the corrected form |
 | `data/screening_decisions.json` | Every retrieved study with its inclusion or exclusion decision, the reason, and a verbatim fragment of the source supporting that reason |
 | `data/corpus.csv` | The included studies with author, year, title, venue, DOI, provenance and research-question assignment |
-| `docs/` | The re-screening evidence document and the methodological notes |
+| `docs/rescreening-evidence.md` | Every exclusion with the abstract fragment that decided it, and the nine that were rescued |
+| `docs/query-audit.md` | What the audit of the search strings measured, and where the correction did not work |
 | `scripts/` | The pipeline: query probes, search execution, screening-set construction, evidence export |
 | `figures/` | Bibliometric figures and the code that derives them |
 
