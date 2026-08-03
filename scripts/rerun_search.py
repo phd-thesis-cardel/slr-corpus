@@ -34,7 +34,13 @@ import urllib.request
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from queries_v2 import QUERIES_V2  # noqa: E402
 
-SLR_DATA = "/home/cardel/repositorios/phd-thesis/slr-data"
+import os as _os
+
+# Resolve the corpus location without hard-coding anyone's home directory:
+# the repository's own data/ directory by default, overridable for a working
+# tree that keeps the raw vendor exports outside the repository.
+_REPO = _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
+SLR_DATA = _os.environ.get("SLR_DATA", _os.path.join(_REPO, "data"))
 BIBLIO = os.path.join(SLR_DATA, "biblio_output")
 CORPUS = os.path.join(BIBLIO, "corpus_unificado.csv")
 VERDICTS = os.path.join(BIBLIO, "rescreening_verdicts.json")

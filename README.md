@@ -24,13 +24,21 @@ fulfilment of PRISMA 2020 item 17.
 
 | | |
 |---|---|
-| Records retrieved and screened | 160 |
+| Records identified | 300 |
+| Retrieved and screened | 160 |
 | Included after screening | **112** |
 | Excluded at re-screening | 48 |
 | Research-question assignments | 114 |
 
 Per question: RQ1 21, RQ2 18, RQ3 50, RQ4 10, RQ5 15. Two studies address two
-questions each, which is why the assignments exceed the study count.
+questions each, which is why the assignments exceed the study count. By
+provenance: 65 assignments from the database queries, 34 from citation chasing,
+15 from the citation index.
+
+Every included study carries a publication venue and 103 of the 112 carry a
+Digital Object Identifier. Venues absent from the unified corpus were recovered
+from the raw exports and, failing that, from the DOI registry; one truncated
+identifier was repaired against a title search.
 
 ## Research questions
 
@@ -86,10 +94,17 @@ limitation is stated rather than hidden.
 ## Redistribution
 
 The records here are limited to bibliographic facts: authors, title, year,
-venue, DOI, document type, and the review's own screening decisions. Abstracts,
-indexed keyword fields and affiliation data from Scopus and Web of Science are
-not redistributed, since those are licensed by their vendors. `scripts/` contains
-the code to retrieve them again from the APIs under your own credentials.
+venue, DOI, document type, provenance, and the review's own screening decisions.
+Abstracts, indexed keyword fields, affiliation data and citation counts from
+Scopus and Web of Science are not redistributed, since those are the indexing
+value-add of their vendors; `scripts/` retrieves them again from the APIs under
+the reader's own credentials.
+
+The exclusion evidence quotes a fragment of each excluded study's abstract,
+averaging under two hundred characters, because a screening decision that cannot
+be checked against its source is not a decision a reader can audit. Aggregate
+tables in `data/` are derived from the withheld fields but do not reproduce
+them.
 
 ## Reproducing
 

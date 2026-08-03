@@ -17,7 +17,13 @@ import os
 import re
 import sys
 
-SLR_DATA = "/home/cardel/repositorios/phd-thesis/slr-data"
+import os as _os
+
+# Resolve the corpus location without hard-coding anyone's home directory:
+# the repository's own data/ directory by default, overridable for a working
+# tree that keeps the raw vendor exports outside the repository.
+_REPO = _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
+SLR_DATA = _os.environ.get("SLR_DATA", _os.path.join(_REPO, "data"))
 CORPUS = os.path.join(SLR_DATA, "biblio_output", "corpus_unificado.csv")
 OUT = os.path.join(SLR_DATA, "biblio_output", "screening_set.json")
 

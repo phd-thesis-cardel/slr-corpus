@@ -1,0 +1,1256 @@
+Keyword,N_articulos
+web services,82
+software testing,45
+network security,44
+mutation testing,43
+websites,42
+application programming interfaces (api),41
+mutation operators,40
+testing,29
+security,23
+cloud computing,23
+application programs,21
+genetic algorithms,20
+authentication,20
+mutation analysis,20
+open source software,16
+cryptography,15
+security testing,14
+internet of things,14
+applications programming interfaces,14
+web application,12
+quality of service,12
+soap messages,12
+software design,12
+cybersecurity,12
+anomaly detection,12
+blockchain,12
+stateofart,12
+access control,11
+cyber security,11
+machine learning,11
+rest api,11
+test case generation,10
+restful api,10
+test case,10
+scheduling algorithms,10
+security systems,10
+api security,10
+api,10
+denial-of-service attack,10
+cloud services,9
+internet protocols,9
+information services,9
+service oriented architecture (soa),9
+ws-bpel,9
+penetration testing,9
+security vulnerabilities,9
+evolutionary algorithms,8
+vulnerability testing,8
+software engineering,8
+block-chain,8
+decision trees,8
+open systems,8
+authorization,8
+microservices,7
+containers,7
+scheduling,7
+web service composition,7
+java programming language,7
+http,7
+rest,7
+uppaal,6
+computer software selection and evaluation,6
+software reliability,6
+computer crime,6
+model checking,6
+social networking (online),6
+simple object access protocols,6
+combinatorial testing,6
+quality assurance,6
+algorithms,6
+mutation process,6
+security policy,6
+quality of web services,6
+fault-injection,6
+webgoat,6
+web service,6
+fault detection,6
+empirical studies,6
+fault detection effectiveness,6
+life cycle,6
+user interfaces,6
+static code analysis,6
+vulnerability detection,6
+application programming interface security,6
+losses,6
+machine-learning,6
+natural language processing,6
+software defined networking,6
+program debugging,6
+coap,6
+mqtt,6
+information management,6
+genetic algorithm,5
+cloud service providers,5
+robustness testing,5
+mutation,5
+computer software,5
+cloud-computing,5
+energy,5
+metamorphic testing,5
+business process execution language for web services,5
+information systems,5
+large language model,5
+architecture,5
+defects,5
+security risks,5
+software defined networking (sdn),5
+restful services,5
+learning systems,5
+secure software development,5
+soa,5
+static analysis,5
+learning algorithms,4
+multitasking,4
+optimization,4
+optimization algorithms,4
+tasks scheduling,4
+automata theory,4
+multiobjective optimization,4
+virtual machine,4
+non dominated sorting genetic algorithm ii (nsga ii),4
+test generations,4
+specifications,4
+mobile security,4
+perturbation techniques,4
+combinatorial strategies,4
+prototype tools,4
+security rules,4
+tools,4
+system testing,4
+multi-class,4
+multiple class,4
+software program,4
+system levels,4
+electronic commerce,4
+abstraction gap,4
+computer system firewalls,4
+programming theory,4
+statistical tests,4
+test facilities,4
+wavelet analysis,4
+world wide web,4
+input filters,4
+international conferences,4
+java server pages,4
+open sources,4
+private information,4
+quality software,4
+source coding,4
+sql-injection,4
+test cases,4
+test data,4
+web-based applications,4
+equipment testing,4
+computational complexity,4
+cost reduction,4
+convergence speed,4
+high level languages,4
+python,4
+random testing,4
+distributed applications,4
+particle swarm optimization (pso),4
+energy efficiency,4
+5g mobile communication systems,4
+internet of things (iot),4
+execution environments,4
+service testing,4
+software applications,4
+data transfer,4
+service compositions,4
+rna,4
+visualization,4
+internet,4
+phylogeny,4
+point mutation,4
+sequence alignment,4
+software,4
+semantic web,4
+experimental evaluation,4
+software technology,4
+optimal solutions,4
+risk assessment,4
+language model,4
+language processing,4
+natural languages,4
+distributed database systems,4
+software vulnerabilities,4
+nearest neighbor search,4
+software-defined networkings,4
+real time systems,4
+sensitive data,4
+application programming interface,4
+hypertext systems,4
+sdn,4
+vulnerability assessments,4
+personal computing,4
+distributed denial of service attack,4
+privacy by design,4
+codes (symbols),4
+openflow,4
+software architecture,4
+web applications,4
+test case mutation,3
+hybrid cloud environment,3
+many-objective optimization algorithm,3
+many-objective optimization model,3
+cloud environments,3
+content-based encrypted image retrieval,3
+thumbnail preserving encryption,3
+content-based,3
+extreme price,3
+filtering algorithm,3
+maximisation,3
+vulnerability,3
+tron,3
+mutation operator,3
+soap message,3
+sql injection,3
+electronic document exchange,3
+flexible weak mutation,3
+problem oriented languages,3
+flexible weak muation,3
+conformance testing,3
+cost-efficient,3
+task scheduling problem,3
+walking around procedure,3
+service composition,3
+adaptation,3
+differential evolution,3
+internet of everything,3
+energy utilization,3
+multi-objective evolutionary algorithm,3
+bug reports,3
+dependability evaluation,3
+fault injection,3
+orthogonal defect classification,3
+platform as a service (paas),3
+service oriented architecture,3
+execution time,3
+improved ga,3
+pso,3
+job scheduling,3
+devops,3
+fog computing,3
+infrastructure as a service (iaas),3
+wsdl,3
+cost optimization,3
+workflow scheduling,3
+graphic methods,3
+semantic dependency analysis,3
+information use,3
+data perturbation,3
+transactional patterns,3
+adaptability,3
+web services composition,3
+oracle,3
+multi qos,3
+computing environments,3
+computer systems,3
+secure transactions,3
+ai in cybersecurity,3
+explainable ai,3
+security attacks,3
+adversarial machine learning,3
+information security,3
+prompt injection,3
+synthetic prompt generation,3
+computer circuits,3
+representational state transfer,3
+automatic assessment,3
+gamification,3
+electrical vehicles,3
+microservice architecture,3
+virtualized environment,3
+northbound api,3
+southbound api,3
+distributed systems,3
+log analysis,3
+distributed ledger,3
+application security,3
+web3,3
+fuzzing,3
+microservice,3
+rfc 6238,3
+rfc 7617,3
+middleware,3
+data integrity,3
+data communication protocols,3
+dpws,3
+xmpp,3
+firewall,3
+data mining,3
+big data,3
+webapi,3
+port scanner,3
+automation,3
+topology,3
+data privacy,3
+embedded systems,3
+floods,3
+k-means,3
+forecasting,3
+software metrics,3
+software quality,3
+digital identification,3
+identity management,3
+personality traits,3
+fiware,3
+facebook,3
+malicious content,3
+e-learning,3
+electric lighting,3
+controllers,3
+mobile applications,3
+source code analysis,3
+web application security,3
+web services security,3
+enterprise software,3
+national security,3
+secure designs,3
+legacy software,3
+software security,3
+trusted applications,3
+security of data,3
+managers,3
+federated identity,3
+automated approach,2
+component under tests,2
+mutation algorithms,2
+cloud computing architecture,2
+hybrid clouds,2
+many-objective optimizations,2
+optimization models,2
+content based retrieval,2
+image enhancement,2
+privacy-preserving techniques,2
+bandwidth resource,2
+encrypted images,2
+images encryptions,2
+personal privacy,2
+privacy preserving,2
+privacy requirements,2
+behavioral research,2
+behavioral model,2
+timed automata,2
+crossover operator,2
+decision variables,2
+greedy algorithms,2
+network latencies,2
+resource optimization,2
+exponential functions,2
+non-uniform mutation,2
+optimal selection,2
+resource-scheduling,2
+virtual resource,2
+test generation,2
+effective approaches,2
+public services,2
+sql injection attacks,2
+web application firewalls,2
+reservation systems,2
+model based testing,2
+automatic test-case generations,2
+software systems,2
+e-government,2
+application firewalls,2
+automated testing,2
+effective inputs,2
+web technologies,2
+soap message mutation,2
+testing efficiency,2
+traditional approaches,2
+prototype tool,2
+security rules mutation,2
+integration testing,2
+integration,2
+network protocols,2
+web service testing,2
+web service description language,2
+bridging abstraction gaps,2
+model-checking,2
+functional levels,2
+functional programs,2
+new system,2
+support tool,2
+system theory,2
+verification,2
+boundary value analysis,2
+event sequence graphs,2
+policy specification,2
+formal methods,2
+business continuity,2
+cloud computing environments,2
+hybrid genetic algorithms,2
+monetary costs,2
+task-scheduling algorithms,2
+workflow execution,2
+delay,2
+heuristics algorithm,2
+multi-objectives optimization,2
+multiobjective evolutionary algorithms,2
+optimisations,2
+heuristic algorithms,2
+case-studies,2
+fault injection techniques,2
+python code,2
+software fault,2
+parameter setting,2
+random partitions,2
+test case selection,2
+heuristic methods,2
+hybrid scheduling strategies,2
+time cost,2
+cluster computing,2
+computer programming,2
+fog,2
+investments,2
+bottom-up fashion,2
+future research directions,2
+latest technology,2
+software development life cycle,2
+test driven development,2
+test-driven software development,2
+optimization techniques,2
+performance optimizations,2
+fully automated,2
+web services technologies,2
+job analysis,2
+deadline constraint,2
+dynamic scheduling,2
+processor scheduling,2
+task analysis,2
+cost benefit analysis,2
+adaptive mutation operators,2
+differential evolution algorithms,2
+inter clouds,2
+multi objective evolutionary algorithms,2
+nondominated solutions,2
+qualityof-service requirement (qos),2
+free energy,2
+nucleic acids,2
+wavelet decomposition,2
+free energy minimization,2
+functional relationship,2
+numerical representation,2
+phylogenetic trees,2
+rna secondary structure comparisons,2
+rna secondary structures,2
+rna structure comparisons,2
+scale similarity,2
+bioinformatics,2
+algorithm,2
+archaeon,2
+bacterium,2
+chemistry,2
+conformation,2
+eukaryote,2
+genetics,2
+sequence analysis,2
+archaea,2
+bacteria,2
+eukaryota,2
+nucleic acid conformation,2
+"sequence analysis, rna",2
+distributed clouds,2
+multiple services,2
+calculations,2
+local search (optimization),2
+automatic web service compositions,2
+evolutionary computation techniques,2
+graph representation,2
+integrating networks,2
+memetic algorithms,2
+state-of-the-art algorithms,2
+automatic testing,2
+semantics,2
+data mutation,2
+data-sources,2
+input values,2
+software developer,2
+communication pattern,2
+computational system,2
+enterprise webs,2
+non-functional,2
+industry,2
+adaptive crossovers,2
+composite services,2
+convergent speed,2
+evolution strategies,2
+fitness values,2
+genetic operators,2
+local search,2
+taboo search algorithm,2
+information technology,2
+materials science,2
+complex compositions,2
+confidence interval,2
+random selection,2
+reduction techniques,2
+search spaces,2
+testing technique,2
+business strategy,2
+cloud providers,2
+combinatorial problem,2
+computing resource,2
+cross over,2
+finite time,2
+genetic algorithm approach,2
+job-shop scheduling,2
+linear programming problem,2
+scheduling problem,2
+simple rules,2
+soft deadlines,2
+mathematical operators,2
+aop technologies,2
+business logic,2
+empirical results,2
+issues and challenges,2
+model-based,2
+source codes,2
+testing method,2
+testing process,2
+two-factor authentication,2
+application programming interface vulnerability,2
+computer operating systems,2
+interface behavior,2
+security threats,2
+system applications,2
+electronic data interchange,2
+contrastive learning,2
+federated learning,2
+generative adversarial networks,2
+machine learning approaches,2
+security scanner,2
+trees (mathematics),2
+architecture styles,2
+inconsistency issue,2
+interface logic,2
+logic defect,2
+logic vulnerabilities,2
+restful application programming interface,2
+testing models,2
+compliance control,2
+computer aided instruction,2
+catastrophic consequences,2
+challenge,2
+industrial settings,2
+learning environments,2
+open-source,2
+web based,2
+electric vehicles,2
+ions,2
+trusted computing,2
+virtual reality,2
+virtualization,2
+charging station,2
+cryptographic operations,2
+electric vehicle charging,2
+eos.,2
+io,2
+virtualizations,2
+ddos attacks,2
+ddos attack,2
+malicious packets,2
+man-in-the-attack,2
+network environments,2
+software-defined networks,2
+natural language processing systems,2
+well logging,2
+distributed ledg technology,2
+processing time,2
+real time monitoring,2
+android (operating system),2
+android api,2
+comprehensive analysis,2
+direct objects,2
+insecure direct object reference,2
+object reference,2
+sensitive datas,2
+damage detection,2
+behavior learning,2
+decentralised,2
+decentralized application,2
+learning approach,2
+runtimes,2
+graph visualization,2
+monolithic design,2
+monolithics,2
+port mapping,2
+software practitioners,2
+test reports,2
+testing tools,2
+errors,2
+attendance systems,2
+time based,2
+two factor authentication,2
+cloud application programming interface,2
+cloud application programming interface attack,2
+cloud application programming interface protection,2
+cloud application programming interface security,2
+cloud application programming interface vulnerability,2
+cloud applications,2
+text messaging,2
+wireless sensor networks,2
+attack vector,2
+machine communications,2
+mqtt threat,2
+publish/subscribe,2
+intrusion detection,2
+attack detection,2
+blockings,2
+dynamic network configuration,2
+flow monitoring,2
+intrusion detection systems,2
+malicious traffic,2
+network,2
+system softwares,2
+data science,2
+data visualization,2
+terrorism,2
+analysis models,2
+counter terrorism,2
+data mining models,2
+global terrorism,2
+global terrorism database,2
+government officials,2
+modelling framework,2
+real-time collection,2
+telecommunication satellites,2
+terrorists attack,2
+database systems,2
+vulnerability assessment,2
+assessment approaches,2
+high securities,2
+open web application security projects,2
+vulnerability assessment tool,2
+scanning,2
+cybe reconnaissance,2
+network applications,2
+network mapper,2
+vulnerability scanner,2
+web application attacks,2
+mesh generation,2
+mesh networking,2
+redundancy,2
+back-bone network,2
+critical networks,2
+flow management,2
+mesh architecture,2
+mesh topologies,2
+policy-based,2
+service provider,2
+communication channels (information theory),2
+data communication systems,2
+multimedia services,2
+queueing networks,2
+authentication functions,2
+data confidentiality,2
+handover authentications,2
+multimedia applications,2
+multimedia streaming applications,2
+quality of experience (qoe),2
+security credentials,2
+software and hardwares,2
+critical infrastructures,2
+cyber physical system,2
+electric power transmission networks,2
+information analysis,2
+nuclear power plants,2
+oils and fats,2
+public works,2
+support vector machines,2
+anomaly detection models,2
+attribute based access control,2
+critical infrastructure protection,2
+machine learning models,2
+mississippi state university,2
+neural network algorithm,2
+oak ridge national laboratories,2
+water purification systems,2
+floodlighting,2
+centralized networks,2
+classification errors,2
+information gain ratio,2
+network infrastructure,2
+radial basis function kernels,2
+support vector classification,2
+access patterns,2
+artificial immune system,2
+artificial intelligence driven cybersecurity,2
+auto encoders,2
+cyber-attacks,2
+architectural design,2
+decision making,2
+project management,2
+statistical mechanics,2
+decision making process,2
+forecasting models,2
+project management tools,2
+software repositories,2
+software services,2
+c (programming language),2
+context-based,2
+strong securities,2
+best-effort,2
+cognitive functions,2
+cyclomatic complexity,2
+java api,2
+potential sources,2
+professional experiences,2
+programming experience,2
+security community,2
+automatic test pattern generation,2
+automated test case generation,2
+automatically generated,2
+enterprise applications,2
+restful web services,2
+white-box testing,2
+black-box testing,2
+end-to-end security,2
+interconnecting device,2
+interactive computer systems,2
+signal detection,2
+supervised learning,2
+characteristic difference,2
+class probabilities,2
+filtering process,2
+on-line social networks,2
+random forest classifier,2
+real-time detection,2
+distributed computer systems,2
+man in the middle attacks,2
+security enhancing,2
+third party application (apps),2
+unauthorized access,2
+very low complexity,2
+artificial intelligence,2
+cyber criminals,2
+multiple machine,2
+online social networks (osns),2
+real-time identification,2
+textual content,2
+user engagement,2
+user experience,2
+secure design,2
+soaps (detergents),2
+security codes,2
+detectors,2
+inspection equipment,2
+quantitative software engineering,2
+source code repositories,2
+cloud forensics,2
+digital forensics,2
+availability,2
+data security,2
+security assessment,2
+security awareness,2
+xml,2
+internet security and online protection,2
+secure online system,2
+steganography,2
+usb login,2
+user authentication,2
+socially assistive robots,2
+computer software reusability,2
+automated planning,2
+closed loop automation,2
+digital twin network,2
+efficiency,2
+network management,2
+mmimo,2
+xapp open ran,2
+api development,2
+owasp api security top 10,2
+vulnerability mitigation,2
+api monitoring,2
+performance benchmark,2
+performance testing,2
+sustainable computing,2
+edge computing,2
+monitoring,2
+single board computers,2
+authoring tool,2
+customized course,2
+generator,2
+moodle,2
+moodle rest-api,2
+moodle restore functionality,2
+reverse engineering,2
+codi,2
+conversation disentanglement,2
+instant messaging,2
+spacecraft test system,2
+rule recommendation,2
+distributed database,2
+network monitoring,2
+costs,2
+knowledge graph,2
+sparql,2
+match-action table,2
+open vswitch,2
+complexity management,2
+product development process,2
+agile,2
+azure,2
+parking,2
+predictive analytics,2
+sds,2
+digital storage,2
+data storage,2
+fts3,2
+webfts,2
+grid,2
+myproxy,2
+oauth,2
+etsi m2 m,2
+restful web servcie,2
+restful apis,1
+task scheduling,1
+image encryption,1
+image retrieval,1
+privacy-preserving,1
+model-based mutation testing,1
+timed automata mutation,1
+user behavioral model,1
+container orchestration,1
+multi-objective optimization,1
+resource scheduling.,1
+model-based testing,1
+specification mutation,1
+web service vulnerability,1
+web services testing,1
+firewalls,1
+protocol robustness testing,1
+hybrid genetic algorithm,1
+adaptive mutation operator,1
+nsga-ii,1
+qos-driven,1
+multi-objective evolutionary algorithms,1
+software faults,1
+dynamic random testing,1
+software cybernetics,1
+bacterial foraging optimization,1
+makespan,1
+smart services,1
+test-driven development,1
+performance optimization,1
+prioritization of mutation operators,1
+second-order mutation testing,1
+deadline constraints,1
+differential evolution algorithm,1
+inter-cloud,1
+multi-scale similarity,1
+numerical representations,1
+phylogenetic tree,1
+rna structure comparison,1
+rna-tvcurve,1
+evolutionary algorithm,1
+follow-up test cases,1
+job shop scheduling,1
+soft deadline,1
+behavioral analysis,1
+digital wallet security,1
+financial security,1
+mobile payment systems,1
+one-time password,1
+otp vulnerabilities,1
+token-based authentication,1
+user education,1
+api vulnerabilities,1
+large language models,1
+inconsistency issues,1
+logic defects,1
+biometrics,1
+business security,1
+lisea,1
+challenges,1
+learning environment,1
+eos.io,1
+hardware security modules,1
+trusted platform module,1
+man-in-the-attacks,1
+software defined network(sdn),1
+distributed ledger technology,1
+android apis,1
+idor,1
+application programming interface (api),1
+decentralized applications,1
+attendance system,1
+cloud api attack,1
+cloud api protection,1
+cloud api security,1
+cloud api vulnerability,1
+cloud application programming interface (api),1
+mqtt threats,1
+publish-subscribe,1
+ids,1
+networks,1
+prioritization model,1
+probability theory,1
+risk factor,1
+shodan,1
+vulnerability scanning,1
+analysis model,1
+counter-terrorism,1
+gtd (global terrorism database),1
+cyber reconnaissance,1
+nmap,1
+attack detection and mitigation,1
+flow tables,1
+policy based flow management (pbfm),1
+sflow agent,1
+sflow collector,1
+sflow-rt,1
+5th generation network (5g),1
+lightweight cryptography,1
+multi-access edge computing (mec),1
+multimedia communication,1
+network slicing,1
+nfv,1
+qoe,1
+jwt,1
+oauth 2.0,1
+cyber-physical systems,1
+key management,1
+c-support vector classification (c-svc),1
+ddos,1
+floodlight,1
+netflow,1
+ai driven cybersecurity,1
+artificial immune systems,1
+autoencoders,1
+random forests,1
+career path system,1
+data fusion,1
+esco ontology,1
+esco rest api,1
+user profiling,1
+api exhaustion attack,1
+cloud api vulnerabilities,1
+cloud computing security,1
+software service,1
+context-based authentication,1
+privacy,1
+radius authentication,1
+strong security,1
+real-time system,1
+openflow applications,1
+sdn controller,1
+security code review,1
+soap,1
+static analysis tool,1
+openstack cloud,1
+digital image storage,1
+electronic crime countermeasures,1
+image analysis,1
+random access storage,1
+cloud platforms,1
+design and implementations,1
+image acquisition and analysis,1
+integrity checking,1
+object storages,1
+random access memory,1
+various attacks,1
+computer forensics,1
+network layers,1
+trusted third party,1
+web framework,1
+plastic bottles,1
+web design,1
+internet security,1
+on line protection,1
+security protection,1
+trusted third parties,1
+web frameworks,1
+node.js,1
+human-robot interaction,1
+neurodevelopmental disorders,1
+anthropomorphic robots,1
+human computer interaction,1
+human robot interaction,1
+man machine systems,1
+modular robots,1
+clinical environments,1
+human-in-the-loop,1
+humans-robot interactions,1
+interactive engagements,1
+modulars,1
+neurodevelopmental disorder,1
+non-technical users,1
+real-world,1
+software frameworks,1
+dwdm,1
+otn,1
+digital twin,1
+fiber optic networks,1
+optical communication,1
+optical systems,1
+telecommunication industry,1
+telecommunication services,1
+transparent optical networks,1
+closed-loop,1
+dense wavelength-division-multiplexing,1
+dense-wavelength-division-multiplexing,1
+network planning,1
+optical transport networks,1
+planning tools,1
+twin networks,1
+dense wavelength division multiplexing,1
+digital twins,1
+network automation,1
+antennas,1
+antenna management,1
+critical researches,1
+energy efficient,1
+network automations,1
+reduction in energy consumption,1
+research gaps,1
+functions level,1
+misconfigurations,1
+resources consumption,1
+technical guides,1
+data leaks,1
+data-driven,1
+software prototyping,1
+confidential information,1
+data driven,1
+data-driven approach,1
+european commission,1
+monitoring tools,1
+prototype models,1
+sensitive informations,1
+software-tools,1
+information leakage,1
+green computing,1
+rest api frameworks,1
+performance,1
+representational state transfer api,1
+representational state transfer api framework,1
+sensors,1
+green buildings,1
+mobile edge computing,1
+spatio-temporal data,1
+computing nodes,1
+computing paradigm,1
+environmental parameter,1
+monitoring applications,1
+public buildings,1
+sensors data,1
+single-board computers,1
+environmental monitoring,1
+api specifications,1
+automated configuration,1
+digital age,1
+functional elements,1
+it supports,1
+open api,1
+tool demonstration,1
+domain-specific language (dsl),1
+gzip and tar packed xml-files,1
+learning elements,1
+learning management systems,1
+moodle backup zip (mbz) file,1
+digital subscriber lines,1
+restoration,1
+domain-specific language,1
+domains specific languages,1
+gzip and tar packed xml-file,1
+learning element,1
+learning management system,1
+moodle backup zip file,1
+xml files,1
+curricula,1
+micro-services,1
+message passing,1
+code review,1
+collaborative development,1
+high-throughput,1
+micro services,1
+pre-processing step,1
+program comprehension,1
+real-time communication,1
+reusability,1
+adoxx,1
+dependency management,1
+domain-specific modeling method engineering,1
+npm ecosystem,1
+rdf,1
+rest api ecosystem,1
+aws,1
+cd,1
+ci,1
+society 50,1
+teaching guide,1
+electronic mail,1
+encoding (symbols),1
+quality control,1
+unified modeling language,1
+class diagrams,1
+e - learning,1
+electronic learning,1
+engineering competencies,1
+learning resource,1
+open learning,1
+quality attributes,1
+related works,1
+systematic review,1
+uml class diagrams,1
+personnel training,1
+bim,1
+information container,1
+integration platform,1
+opencde,1
+software products,1
+toolchains,1
+workflows,1
+aerospace industry,1
+electric loads,1
+expansion,1
+orbits,1
+space flight,1
+space research,1
+spacecraft,1
+assembly integration and tests,1
+electrical ground support equipments,1
+multi tenants,1
+running-in,1
+spacecraft system,1
+test systems,1
+open user model services,1
+psychological traits,1
+end-user development,1
+locus of control,1
+need for cognitions,1
+open user model service,1
+open user models,1
+psychological trait,1
+self efficacy,1
+user modelling,1
+i2nsf,1
+cloud securities,1
+enterprise security,1
+monitoring system,1
+networks security,1
+security functions,1
+web-based monitoring,1
+efficient managements,1
+its services,1
+low-costs,1
+management issues,1
+management structure,1
+network resource,1
+security mechanism,1
+sensors network,1
+sensor networks,1
+configuration files,1
+knowledge graphs,1
+ontology's,1
+structured information,1
+template-based,1
+web resources,1
+data centers,1
+fpga in cloud computing,1
+interconnection networks,1
+multi fpga system,1
+warehouse-scale computing,1
+binary sequences,1
+dynamic models,1
+field programmable gate arrays (fpga),1
+interconnection networks (circuit switching),1
+bitstream compression,1
+cluster management,1
+dynamic re-configuration,1
+energy efficient systems,1
+evaluation results,1
+management software,1
+on-line applications,1
+partial reconfiguration,1
+reconfigurable hardware,1
+ip tunneling,1
+heterogeneous networks,1
+control and management,1
+management complexity,1
+network management architectures,1
+network virtualization,1
+integral product architecture,1
+model based systems engineering,1
+merging,1
+product development,1
+risk management,1
+risk perception,1
+systems engineering,1
+business process model,1
+model-based systems engineering,1
+model-based systems engineering (mbse),1
+product architecture,1
+product data management systems (pdms),1
+requirements management,1
+azure boards,1
+kanban,1
+scrum,1
+azure board,1
+board configurations,1
+customisation,1
+kanbans,1
+learn+,1
+scra,1
+team projects,1
+work-flows,1
+intelligent web system,1
+mobile application,1
+payara server,1
+mobile computing,1
+application servers,1
+data and information,1
+free software tools,1
+intelligent web systems,1
+security modules,1
+surveillance cameras,1
+surveillance systems,1
+neural network,1
+software-defined storage,1
+computer systems programming,1
+cost effectiveness,1
+facings,1
+network architecture,1
+neural networks,1
+video streaming,1
+cloud storage services,1
+cost-effective storages,1
+performance requirements,1
+advanced monitoring,1
+development activity,1
+graphical interface,1
+large data transfers,1
+management operation,1
+transfer parameters,1
+transfer technologies,1
+file transfer,1
+hpc,1
+computation theory,1
+portals,1
+file transfers,1
+machine-to-machine,1
+"modularity, autonomic computing",1
+osgi plugins,1
+self-configuration,1
+service platform,1
+energy conservation,1
+autonomic computing,1
+machine to machines,1
+plug-ins,1
+self configuration,1
+service platforms,1
+machine-to-machine communication,1

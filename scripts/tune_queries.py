@@ -25,7 +25,13 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-SLR_DATA = "/home/cardel/repositorios/phd-thesis/slr-data"
+import os as _os
+
+# Resolve the corpus location without hard-coding anyone's home directory:
+# the repository's own data/ directory by default, overridable for a working
+# tree that keeps the raw vendor exports outside the repository.
+_REPO = _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
+SLR_DATA = _os.environ.get("SLR_DATA", _os.path.join(_REPO, "data"))
 BIBLIO = os.path.join(SLR_DATA, "biblio_output")
 SCOPUS_URL = "https://api.elsevier.com/content/search/scopus"
 PAGE = 25
