@@ -2,10 +2,12 @@
 #
 # What are the most common security misconfigurations encountered during the development of RESTful APIs?
 #
-# Form: as published with the review
+# This is the string as published with the review. The filters on publication
+# year, document type and language were applied through the Scopus interface at
+# search time and are not part of the string; set them there.
 #
-# Paste the block below into the TITLE-ABS-KEY field of Scopus. Line breaks are for
-# reading only; the interface treats the string as one line.
+# Paste the block below into the TITLE-ABS-KEY field. Line breaks are for reading
+# only; the interface treats the string as one line.
 
 TITLE-ABS-KEY("RESTful API" OR "REST API") AND TITLE-ABS-KEY("securit*
 misconfiguration*" OR configuration*) AND TITLE-ABS-KEY(development* OR SDLC OR DevOps

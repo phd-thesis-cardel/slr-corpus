@@ -1,0 +1,14 @@
+# RQ3 -- Scopus
+#
+# What factors contribute to finding vulnerabilities in RESTful API services?
+#
+# The filters on publication year (2000 to 2026), document type (article,
+# conference paper, review, book chapter) and language (English) are set
+# through the Scopus interface and are not part of the string below.
+#
+# Paste the block into the TITLE-ABS-KEY field. Line breaks are for reading only;
+# the interface treats the string as one line.
+
+TITLE-ABS-KEY("REST* API*" OR "Cloud* API*" OR "Web API*") AND TITLE-ABS-
+KEY("vulnerability" OR "security flaw" OR "exploit" OR "attack") AND TITLE-ABS-
+KEY("cause*" OR "factor*" OR "source*")

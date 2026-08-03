@@ -1,14 +1,8 @@
 """Write the search strings out as plain files, one per question per database.
 
-The strings live in two Python modules because the pipeline executes them from
+The strings live in a Python module because the pipeline executes them from
 there. A reader who wants to paste a query into the Scopus or Web of Science
-interface should not have to read Python to find it, so this script mirrors both
-modules into `queries/` as text files and as one JSON document.
-
-Both forms are exported. `published/` holds the strings as they appear in the
-review; `corrected/` holds the strings an update should use, with the homonymy
-of *mutation* anchored on software testing and the interface block widened to
-the service vocabulary the corpus contains.
+interface should not have to read Python to find it.
 
 Usage:
     python3 scripts/export_queries.py
@@ -27,29 +21,28 @@ OUT = os.path.join(REPO, "queries")
 
 sys.path.insert(0, HERE)
 from queries import QUERIES  # noqa: E402
-from queries_v2 import QUERIES_V2  # noqa: E402
+
+FIELD = {"Scopus": "TITLE-ABS-KEY", "Web of Science": "TS"}
 
 HEADER = """\
 # {rq} -- {db}
 #
 # {description}
 #
-# Form: {form}
-{extra}#
-# Paste the block below into the {field} field of {db}. Line breaks are for
-# reading only; the interface treats the string as one line.
+# The filters on publication year (2000 to 2026), document type (article,
+# conference paper, review, book chapter) and language (English) are set
+# through the {db} interface and are not part of the string below.
+#
+# Paste the block into the {field} field. Line breaks are for reading only;
+# the interface treats the string as one line.
 
 """
 
-FIELD = {"Scopus": "TITLE-ABS-KEY", "Web of Science": "TS"}
 
-
-def wrap(query: str) -> str:
-    """Break a long query at operator boundaries so it stays readable."""
-    text = " ".join(query.split())
-    for op in (" AND ", " OR "):
-        text = text.replace(op, op.strip().join(("\n", " ")) if op == " AND " else op)
-    return "\n".join(textwrap.wrap(text, width=88, break_long_words=False))
+def wrap(query: str, width: int = 88) -> str:
+    return "\n".join(
+        textwrap.wrap(" ".join(query.split()), width=width, break_long_words=False)
+    )
 
 
 def write(path: str, body: str) -> None:
@@ -59,42 +52,27 @@ def write(path: str, body: str) -> None:
 
 
 def main() -> int:
-    bundle = {"published": [], "corrected": []}
+    bundle = []
     written = 0
-
     for entry in QUERIES:
         for db, key in (("Scopus", "scopus"), ("Web of Science", "wos")):
             body = HEADER.format(
                 rq=entry["rq"], db=db, description=entry["description"],
-                form="as published with the review", extra="", field=FIELD[db],
+                field=FIELD[db],
             ) + wrap(entry[key]) + "\n"
-            write(os.path.join(OUT, "published", f"{entry['rq'].lower()}-{key}.txt"), body)
+            write(os.path.join(OUT, f"{entry['rq'].lower()}-{key}.txt"), body)
             written += 1
-        bundle["published"].append({
-            "rq": entry["rq"], "description": entry["description"],
+        bundle.append({
+            "rq": entry["rq"],
+            "description": entry["description"],
             "scopus": " ".join(entry["scopus"].split()),
             "wos": " ".join(entry["wos"].split()),
         })
 
-    for entry in QUERIES_V2:
-        for db, key in (("Scopus", "scopus"), ("Web of Science", "wos")):
-            body = HEADER.format(
-                rq=entry["rq"], db=db, description=entry["description"],
-                form="corrected after the 2026-08-03 audit",
-                extra=f"# Change: {entry['change']}\n", field=FIELD[db],
-            ) + wrap(entry[key]) + "\n"
-            write(os.path.join(OUT, "corrected", f"{entry['rq'].lower()}-{key}.txt"), body)
-            written += 1
-        bundle["corrected"].append({
-            "rq": entry["rq"], "description": entry["description"],
-            "change": entry["change"],
-            "scopus": " ".join(entry["scopus"].split()),
-            "wos": " ".join(entry["wos"].split()),
-        })
-
-    write(os.path.join(OUT, "queries.json"), json.dumps(bundle, indent=2, ensure_ascii=False) + "\n")
-    print(f"  {written} query files -> {OUT}/published and {OUT}/corrected")
-    print(f"  machine-readable bundle -> {OUT}/queries.json")
+    write(os.path.join(OUT, "queries.json"),
+          json.dumps(bundle, indent=2, ensure_ascii=False) + "\n")
+    print(f"  {written} query files -> {OUT}")
+    print(f"  machine-readable     -> {OUT}/queries.json")
     return 0
 
 

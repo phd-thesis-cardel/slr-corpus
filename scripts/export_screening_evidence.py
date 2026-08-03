@@ -1,127 +1,86 @@
-"""Turn the re-screening verdicts into a reviewable evidence document.
+"""Render the screening decisions as a readable document, grouped by question.
 
-Every proposed exclusion is listed with the verbatim abstract fragment the
-adjudication rested on, so the decision can be checked study by study rather
-than accepted wholesale. Rescued studies are listed separately with the
-argument that saved them.
+Derives from data/screening_decisions.json, so the document and the data cannot
+disagree.
 
 Usage:
-    python3 scripts/slr-update/export_screening_evidence.py <workflow-output.json> <out.md>
+    python3 scripts/export_screening_evidence.py
 """
 
 from __future__ import annotations
 
-import csv
 import json
 import os
-import sys
 from collections import defaultdict
 
-import os as _os
+HERE = os.path.dirname(os.path.abspath(__file__))
+REPO = os.path.dirname(HERE)
+DECISIONS = os.path.join(REPO, "data", "screening_decisions.json")
+OUT = os.path.join(REPO, "docs", "screening-evidence.md")
 
-# Resolve the corpus location without hard-coding anyone's home directory:
-# the repository's own data/ directory by default, overridable for a working
-# tree that keeps the raw vendor exports outside the repository.
-_REPO = _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
-SLR_DATA = _os.environ.get("SLR_DATA", _os.path.join(_REPO, "data"))
-CORPUS = _os.path.join(SLR_DATA, "corpus.csv")
-
-
-def load_corpus() -> dict[str, dict]:
-    with open(CORPUS, encoding="utf-8") as fh:
-        return {r["Article_ID"]: r for r in csv.DictReader(fh)}
+CRITERIA = (
+    "Studies were judged against the inclusion and exclusion criteria of the "
+    "review, in particular the two exclusion clauses that read *Publications "
+    "not directly related to RESTful API security or mutation testing* and "
+    "*Articles focusing on non-RESTful API security or unrelated mutation "
+    "testing domains*. The scope of the review admits adjacent work on web "
+    "services, fault injection and stateful fuzzing, so a study is excluded "
+    "only when it belongs to a different field altogether."
+)
 
 
 def main() -> int:
-    if len(sys.argv) < 3:
-        print(__doc__, file=sys.stderr)
-        return 2
-    raw = json.load(open(sys.argv[1], encoding="utf-8"))
-    result = raw.get("result", raw)
-    corpus = load_corpus()
-
-    excluir = result["excluir"]
-    rescatados = result["rescatados"]
+    with open(DECISIONS, encoding="utf-8") as fh:
+        records = json.load(fh)
+    excluded = [r for r in records if r["decision"] == "excluded"]
+    included = [r for r in records if r["decision"] == "included"]
 
     by_rq: dict[str, list] = defaultdict(list)
-    for e in excluir:
-        row = corpus.get(e["id"], {})
-        rq = (row.get("RQ") or "sin RQ").split(":")[0].strip()
-        by_rq[rq].append((e, row))
+    for rec in excluded:
+        by_rq[(rec.get("rq") or ["unassigned"])[0]].append(rec)
 
     lines = [
         "---",
-        "title: Evidence for the re-screening of the systematic review corpus",
+        "title: Screening decisions and their evidence",
         "author: Carlos A. Delgado S.",
-        "date: 2026-08-03",
         "version: 1.0",
-        "status: review",
+        "status: final",
         "tags: [slr, prisma, screening, corpus]",
         "---",
         "",
-        "# Re-screening evidence",
+        "# Screening decisions",
         "",
-        "Every study in the corpus was judged again against the inclusion and",
-        "exclusion criteria declared in the review methodology, in particular the",
-        "two exclusion clauses that read *Publications not directly related to",
-        "RESTful API security or mutation testing* and *Articles focusing on",
-        "non-RESTful API security or unrelated mutation testing domains*.",
+        CRITERIA,
         "",
-        "Each proposed exclusion was then given to an independent adjudicator",
-        "instructed to rescue it if any honest reading placed the study inside the",
-        "broad bibliometric scope, which admits adjacent work on web services,",
-        "fault injection and stateful fuzzing. Studies that survived that step are",
-        "listed in the second section and remain in the corpus.",
+        f"- Studies judged: **{len(records)}**",
+        f"- Included: **{len(included)}**",
+        f"- Excluded: **{len(excluded)}**",
         "",
-        f"- Studies judged: **{result['total_juzgados']}**",
-        f"- Exclusions upheld: **{len(excluir)}**",
-        f"- Proposed exclusions rescued: **{len(rescatados)}**",
-        f"- Corpus after re-screening: **{result['total_juzgados'] - len(excluir)}**",
+        "Each exclusion carries its reason and a verbatim fragment of the source "
+        "record behind it, so a decision can be checked study by study rather "
+        "than accepted wholesale. The included studies are listed with their "
+        "characteristics in `../data/corpus.csv`.",
         "",
-        "The dominant cause is homonymy. The term *mutation operator* carries a",
-        "distinct technical meaning in evolutionary computation, where it names a",
-        "genetic operator, and *mutation* carries a third meaning in molecular",
-        "biology. Neither sense is the one this review is about.",
-        "",
-        "## Exclusions upheld",
+        "## Excluded studies",
         "",
     ]
 
     for rq in sorted(by_rq):
-        lines.append(f"### {rq} ({len(by_rq[rq])} studies)")
-        lines.append("")
-        for e, row in by_rq[rq]:
-            title = e["title"]
-            year = row.get("Year", "")
-            venue = row.get("Source title", "") or "(no venue field)"
-            doi = row.get("DOI", "") or "(no DOI)"
-            lines.append(f"**{title}**  ")
-            lines.append(f"`ID {e['id']}` · {year} · {venue} · {doi}")
-            lines.append("")
-            lines.append(f"*Reason.* {e['reason']}")
-            lines.append("")
-            if e.get("evidence"):
-                ev = e["evidence"].strip().strip('"')
-                lines.append(f"> {ev}")
-                lines.append("")
+        lines += [f"### {rq} ({len(by_rq[rq])} studies)", ""]
+        for rec in sorted(by_rq[rq], key=lambda r: (r.get("authors") or "").lower()):
+            venue = rec.get("venue") or "(no venue field)"
+            doi = rec.get("doi") or "(no DOI)"
+            lines += [f"**{rec['title']}**  ",
+                      f"{rec.get('year', '')} · {venue} · {doi}", ""]
+            if rec.get("exclusion_reason"):
+                lines += [f"*Reason.* {rec['exclusion_reason']}", ""]
+            if rec.get("exclusion_evidence"):
+                lines += [f"> {rec['exclusion_evidence'].strip().strip(chr(34))}", ""]
 
-    lines.append("## Proposed exclusions that were rescued")
-    lines.append("")
-    lines.append("These studies were flagged in the first pass and are retained.")
-    lines.append("")
-    for r in rescatados:
-        row = corpus.get(r["id"], {})
-        lines.append(f"**{r['title']}**  ")
-        lines.append(f"`ID {r['id']}` · {row.get('Year','')} · {row.get('Source title','') or '(no venue field)'}")
-        lines.append("")
-        lines.append(f"*Retained because.* {r['argument']}")
-        lines.append("")
-
-    out = sys.argv[2]
-    os.makedirs(os.path.dirname(out), exist_ok=True)
-    with open(out, "w", encoding="utf-8") as fh:
+    os.makedirs(os.path.dirname(OUT), exist_ok=True)
+    with open(OUT, "w", encoding="utf-8") as fh:
         fh.write("\n".join(lines) + "\n")
-    print(f"  written: {out}  ({len(excluir)} exclusions, {len(rescatados)} rescues)")
+    print(f"  {len(excluded)} exclusions, {len(included)} included -> {OUT}")
     return 0
 
 

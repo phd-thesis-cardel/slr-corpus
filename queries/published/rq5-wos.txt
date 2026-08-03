@@ -2,10 +2,12 @@
 #
 # What are the most common security misconfigurations encountered during the development of RESTful APIs?
 #
-# Form: as published with the review
+# This is the string as published with the review. The filters on publication
+# year, document type and language were applied through the Web of Science interface at
+# search time and are not part of the string; set them there.
 #
-# Paste the block below into the TS field of Web of Science. Line breaks are for
-# reading only; the interface treats the string as one line.
+# Paste the block below into the TS field. Line breaks are for reading
+# only; the interface treats the string as one line.
 
 TS=("RESTful API" OR "REST API") AND TS=("securit* misconfiguration*" OR configuration*)
 AND TS=(development* OR SDLC OR DevOps OR DevSecOps OR standar*)

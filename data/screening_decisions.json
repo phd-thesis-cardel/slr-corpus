@@ -1,9 +1,5 @@
 [
  {
-  "id": "160",
-  "ids": [
-   "160"
-  ],
   "title": "Bridging the Gap in Web API Security: A Systematic Review of Vulnerabilities, Misuse Patterns, and Developer Challenges",
   "authors": "A., Almjnoony, Ayman; R., Alshamrani, Rayan; J., Alves-Foss, Jim; F., Sheldon, Frederick T.",
   "year": "2026",
@@ -19,10 +15,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "75",
-  "ids": [
-   "75"
-  ],
   "title": "RESTful API automated test case generation with Evomaster",
   "authors": "A., Arcuri, Andrea",
   "year": "2019",
@@ -38,10 +30,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "153",
-  "ids": [
-   "153"
-  ],
   "title": "Fuzzing REST APIs in Industry: Necessary Features and Open Problems",
   "authors": "A., Arcuri, Andrea; A., Poth, Alexander; O., Rrjolli, Olsi",
   "year": "2026",
@@ -57,10 +45,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "69",
-  "ids": [
-   "69"
-  ],
   "title": "A Novel Anomaly Detection Approach to Secure APIs from Cyberattacks",
   "authors": "A., Ifthikar, Arshardh; N., Thennakoon, Nipun; S., Malalgoda, Sanjeewa; H., Moraliyage, Harsha; T.D., Jayawickrama, Thamindu D.; T., Madusanka, Tiroshan; S., Hettiarachchi, Saman",
   "year": "2021",
@@ -76,10 +60,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "80",
-  "ids": [
-   "80"
-  ],
   "title": "Static analysis for web service security - Tools & techniques for a secure development life cycle",
   "authors": "A., Masood, Adnan; J., Java, Jim",
   "year": "2015",
@@ -95,10 +75,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "58",
-  "ids": [
-   "58"
-  ],
   "title": "Fast Blocking of Malicious Traffic by Excluding Benign Flow Monitoring in IDS/SDN Cooperative Firewall Systems",
   "authors": "A., Takai, Akihiro; N., Yamai, Nariyoshi; R., Nakagawa, Rei",
   "year": "2022",
@@ -114,10 +90,6 @@
   "exclusion_evidence": "\"an SDN switch relays traffic between external and internal networks and mirrors the traffic to an IDS host\"; keywords \"Firewall; Ids; Networks; Sdn\""
  },
  {
-  "id": "42",
-  "ids": [
-   "42"
-  ],
   "title": "OTP security in wallet systems: A vulnerability assessment",
   "authors": "A.H., Al-Omari, Ahmad H.; A.G., Alshanty, Ahmad Ghazi; A., Alsarhan, Ayoub; S.A., Omari, Saifullah A.",
   "year": "2025",
@@ -133,10 +105,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "50",
-  "ids": [
-   "50"
-  ],
   "title": "Blockchain-Based Services Implemented in a Microservices Architecture Using a Trusted Platform Module Applied to Electric Vehicle Charging Stations",
   "authors": "A.J., Cabrera, Antonio J.; E., Castillo, Encarnacion; A., Escobar-Molero, Antonio; J., Cruz-Cozar, Juan; D.P., Morales, Diego Pedro; L.M., Parrilla, L. M.",
   "year": "2023",
@@ -152,10 +120,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "57",
-  "ids": [
-   "57"
-  ],
   "title": "MQTT Vulnerabilities, Attack Vectors and Solutions in the Internet of Things (IoT)",
   "authors": "A.J., Hintaw, Ahmed J.; S., Manickam, Selvakumar; M., Abomaali, Mohammed; S., Karuppayah, Shankar",
   "year": "2023",
@@ -171,10 +135,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "112",
-  "ids": [
-   "112"
-  ],
   "title": "Machine learning-based intelligent security framework for secure cloud key management",
   "authors": "Ahmad, Shahnawaz; Mehfuz, Shabana; Urooj, Shabana; Alsubaie, Najah",
   "year": "2024",
@@ -185,15 +145,11 @@
    "RQ4"
   ],
   "provenance": "slr-update",
-  "decision": "excluded",
-  "exclusion_reason": "Cryptographic key management for cloud environments; security, but not of APIs or web services, and no mutation testing.",
-  "exclusion_evidence": "Title \"Machine learning-based intelligent security framework for secure cloud key management\" (Cluster Computing, 2024); no abstract or keywords, but the title situates the topic squarely in cloud key management."
+  "decision": "included",
+  "exclusion_reason": "",
+  "exclusion_evidence": ""
  },
  {
-  "id": "113",
-  "ids": [
-   "113"
-  ],
   "title": "SATORI",
   "authors": "Alonso, Juan C. and Martin-Lopez, Alberto and Segura, Sergio and Bavota, Gabriele and Ruiz-Cort{\\'e",
   "year": "2025",
@@ -209,10 +165,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "92",
-  "ids": [
-   "92"
-  ],
   "title": "Prototyping the Monitoring Applications in Public Buildings using Edge Computing Paradigm",
   "authors": "Andrushevich, A.; Vojteshenko, I.; Protasenia, D.",
   "year": "2024",
@@ -228,10 +180,6 @@
   "exclusion_evidence": "\"a prototype (mockup) of a system for monitoring environmental parameters in residential and public premises\"; keywords \"edge computing; internet of things; sensors; single board computers\""
  },
  {
-  "id": "114",
-  "ids": [
-   "114"
-  ],
   "title": "Advanced White-Box Heuristics for Search-Based Fuzzing of REST APIs",
   "authors": "Arcuri, Andrea; Zhang, Man; Galeotti, Juan",
   "year": "2024",
@@ -247,10 +195,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "115",
-  "ids": [
-   "115"
-  ],
   "title": "RESTler: Stateful REST API Fuzzing",
   "authors": "Atlidakis, Vaggelis; Godefroid, Patrice; Polishchuk, Marina",
   "year": "2019",
@@ -266,10 +210,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "149",
-  "ids": [
-   "149"
-  ],
   "title": "A Comprehensive Study on Large Language Models for Mutation Testing",
   "authors": "B., Wang, Bo; M., Chen, Mingda; M., Deng, Ming; Y., Lin, Youfang",
   "year": "2026",
@@ -285,10 +225,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "103",
-  "ids": [
-   "103"
-  ],
   "title": "R4R: Template-based REST API Framework for RDF Knowledge Graphs",
   "authors": "Badenes-Olmedo, C.; Espinoza-Arias, P.; Corcho, O.",
   "year": "2021",
@@ -304,10 +240,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "102",
-  "ids": [
-   "102"
-  ],
   "title": "Permissioned Blockchain Reinforced API Platform for Data Management in IoT-based Sensor Networks",
   "authors": "Baucas, M.J.; Spachos, P.",
   "year": "2021",
@@ -323,10 +255,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "111",
-  "ids": [
-   "111"
-  ],
   "title": "OM2M: Extensible ETSI-compliant M2M service platform with self-configuration capability",
   "authors": "Ben Alaya, M.B.; Banouar, Y.; Monteil, T.; Chassot, C.; Drira, K.",
   "year": "2014",
@@ -342,10 +270,6 @@
   "exclusion_evidence": "\"we propose the open source OM2 M project, an autonomic ETSI-compliant M2 M service platform... OM2 M provides a RESTful API to enhance interoperability\"; keywords \"ETSI M2 M; Internet of Things; Autonomic Computing; Self-configuration\"."
  },
  {
-  "id": "94",
-  "ids": [
-   "94"
-  ],
   "title": "Technical Report: Define a customized course and import it into Moodle without changes to the configuration of the Moodle system",
   "authors": "Bigler, D.; Hagel, G.",
   "year": "2023",
@@ -361,10 +285,6 @@
   "exclusion_evidence": "\"defining a customized course in Moodle, a popular learning management system ... the structure of Moodle backup zip (MBZ) files\""
  },
  {
-  "id": "116",
-  "ids": [
-   "116"
-  ],
   "title": "Do RESTful API design rules have an impact on the understandability of Web APIs?",
   "authors": "Bogner, Justus; Kotstein, Sebastian; Pfaff, Timo",
   "year": "2023",
@@ -380,10 +300,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "38",
-  "ids": [
-   "38"
-  ],
   "title": "An approach to Metamorphic Testing for WS-BPEL compositions",
   "authors": "C., Castro-Cabrera, Carmen; I., Medina-Bulo, Inmaculada",
   "year": "2011",
@@ -399,10 +315,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "5",
-  "ids": [
-   "5"
-  ],
   "title": "Resource optimization of container orchestration: a case study in multi-cloud microservices-based applications",
   "authors": "C., Guerrero, Carlos; I., Lera, Isaac; C., Juiz, C.",
   "year": "2018",
@@ -418,10 +330,6 @@
   "exclusion_evidence": "\"optimize the deployment of microservices-based applications using containers ... NSGA-II with a two-point crossover operator and three mutation operators\"."
  },
  {
-  "id": "33",
-  "ids": [
-   "33"
-  ],
   "title": "Towards dynamic random testing for web services",
   "authors": "C., Sun, Chang'ai; G., Wang, Guan; K., Cai, Kaiyuan; T.Y., Chen, Tsong Yueh",
   "year": "2012",
@@ -437,10 +345,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "22",
-  "ids": [
-   "22"
-  ],
   "title": "Dynamic Random Testing of Web Services: A Methodology and Evaluation",
   "authors": "C., Sun, Chang'ai; H., Dai, Hepeng; G., Wang, Guan; D., Towey, Dave; T.Y., Chen, Tsong Yueh; K., Cai, Kaiyuan",
   "year": "2022",
@@ -456,10 +360,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "30",
-  "ids": [
-   "30"
-  ],
   "title": "An empirical study on mutation testing of WS-BPEL programs",
   "authors": "C., Sun, Chang'ai; L., Pan, Lin; Q., Wang, Qiaoling; H., Liu, Huai; X., Zhang, Xiangyu",
   "year": "2017",
@@ -475,10 +375,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "76",
-  "ids": [
-   "76"
-  ],
   "title": "Improving security on IoT applications based on the FIWARE platform",
   "authors": "C., Thomas Oliveira, Caio; R., Moreira, Rodrigo; F.D.O., Silva, Flávio De Oliveira; R.S., Miani, Rodrigo S.; P., Frosi-Rosa, Pedro",
   "year": "2018",
@@ -494,10 +390,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "100",
-  "ids": [
-   "100"
-  ],
   "title": "Incorporating Personality Traits in User Modeling for EUD",
   "authors": "Cena, F.; Gena, C.; Mattutino, C.; Mioli, M.; Treccani, B.; Vernero, F.; Zancanaro, M.",
   "year": "2022",
@@ -513,10 +405,6 @@
   "exclusion_evidence": "\"Personality traits such as Need for Cognition, Locus of Control, Mindset and Self-efficacy could impact the perception, acceptance and appreciation of recommendations\"; keywords \"psychological traits; rule recommendation\""
  },
  {
-  "id": "106",
-  "ids": [
-   "106"
-  ],
   "title": "Hands-on Azure Boards: Configuring and Customizing Process Workflows in Azure DevOps Services",
   "authors": "Chandrasekara, C.; Herath, P.",
   "year": "2019",
@@ -532,10 +420,6 @@
   "exclusion_evidence": "keywords \"Agile; Azure; Azure Boards; Kanban; Scrum\"; \"how to effectively use Azure Boards to plan and execute work\" — REST API mentioned only as an administration channel."
  },
  {
-  "id": "85",
-  "ids": [
-   "85"
-  ],
   "title": "Enhancing REST API Handlers Organization for Node.js Microservices",
   "authors": "Chaplia, O.; Klym, H.; Konuhova, M.; Popov, A.I.",
   "year": "2025",
@@ -551,10 +435,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "117",
-  "ids": [
-   "117"
-  ],
   "title": "SFTSDH: Applying Spring Security Framework With TSD-Based OAuth2 to Protect Microservice Architecture APIs",
   "authors": "Chatterjee, Ayan; Gerdes, Martin W.; Khatiwada, Pankaj; Prinz, Andreas",
   "year": "2022",
@@ -570,10 +450,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "118",
-  "ids": [
-   "118"
-  ],
   "title": "DynER: Optimized Test Case Generation for Representational State Transfer (REST)ful Application Programming Interface (API) Fuzzers Guided by Dynamic Error Responses",
   "authors": "Chen, Juxing; Chen, Yuanchao; Pan, Zulie; Chen, Yu; Li, Yuwei; Li, Yang; Zhang, Min; Shen, Yi",
   "year": "2024",
@@ -589,10 +465,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "99",
-  "ids": [
-   "99"
-  ],
   "title": "The Design of the Spacecraft Test System 4000 Based on Microservices Running in Cloud Environment",
   "authors": "Chu, H.; He, X.; Song, H.; Bai, S.",
   "year": "2022",
@@ -608,10 +480,6 @@
   "exclusion_evidence": "\"the electrical ground support equipment (EGSE) must ... exhibit a high degree of extensibility\"; keywords \"spacecraft test system; cloud computing; Aerospace industry\""
  },
  {
-  "id": "10",
-  "ids": [
-   "10"
-  ],
   "title": "Automated testing for SQL injection vulnerabilities: An input mutation approach",
   "authors": "D., Appelt, Dennis; C.D., Nguyen, Cu Duy; L.C., Briand, Lionel C.; N., Alshahwan, Nadia",
   "year": "2014",
@@ -627,10 +495,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "39",
-  "ids": [
-   "39"
-  ],
   "title": "A genetic: Algorithm approach to cost-based multi-QoS job scheduling in cloud computing environment",
   "authors": "D., Dutta, D.; R.C., Joshi, Ramesh Chandra",
   "year": "2011",
@@ -646,10 +510,6 @@
   "exclusion_evidence": "\"a genetic algorithm approach to cost based multi QoS job scheduling has been proposed\"; \"mutation operators, swap and insertion mutation are used to produce a better schedule\""
  },
  {
-  "id": "67",
-  "ids": [
-   "67"
-  ],
   "title": "Trustworthy Data Analysis and Sensor Data Protection in Cyber-Physical Systems",
   "authors": "D., Ulybyshev, Denis; I., Yilmaz, Ibrahim; B., Northern, Bradley; V., Kholodilo, Vadim; M.D., Rogers, Mike D.",
   "year": "2021",
@@ -665,10 +525,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "159",
-  "ids": [
-   "159"
-  ],
   "title": "Log-Based, Business-Aware REST API Testing",
   "authors": "D., Yang, Ding; R., Qian, Ruixiang; Z., Wei, Zhao; C., Fang, Chunrong",
   "year": "2026",
@@ -684,10 +540,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "51",
-  "ids": [
-   "51"
-  ],
   "title": "Enhancing Security in SDN Environments Through Multi-Layer Authentication and Machine Learning-Based Threat Mitigation",
   "authors": "D.N., Ilangarathna, D. N.; D.R.G.K.B., Dilshan, D. R.G.K.B.; U., Dharmakeerthi, Uditha; A.N., Senarathne, Amila Nuwan",
   "year": "2023",
@@ -703,10 +555,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "74",
-  "ids": [
-   "74"
-  ],
   "title": "API Blindspots: Why experienced developers write vulnerable code",
   "authors": "D.S., Oliveira, Daniela Seabra; T., Lin, Tian; M.S., Rahman, Muhammad Sajidur; R., Akefirad, Rad; D.M., Ellis, Donovan M.; E., Perez, Eliany; R., Bobhate, Rahul; L.A., DeLong, Lois Anne; J., Cappos, Justin; Y., Brun, Yuriy",
   "year": "2019",
@@ -722,10 +570,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "88",
-  "ids": [
-   "88"
-  ],
   "title": "Adaptive mMIMO Control in OPEN RAN: A Dynamic xApp Approach for Energy-Efficient Antenna Management",
   "authors": "Daragh, V.K.; Ahmadi, H.; Grace, D.",
   "year": "2025",
@@ -741,10 +585,6 @@
   "exclusion_evidence": "\"an xApp-based algorithm that fetches RAN KPIs to adjust mMIMO parameters and enhance energy efficiency\"; keywords \"mMIMO; Energy Efficiency; xApp OPEN RAN\""
  },
  {
-  "id": "86",
-  "ids": [
-   "86"
-  ],
   "title": "A Modular REST-Based Framework for Human-in-the-Loop Robot-Assisted personalized Rehabilitation in Neurodevelopmental Disorders",
   "authors": "De Luca, M.; de Tommaso, D.; Ghiglino, D.; Fasolino, A.R.; Tramontana, P.; Wykowska, A.",
   "year": "2025",
@@ -760,10 +600,6 @@
   "exclusion_evidence": "\"Socially Assistive Robots (SARs) are increasingly used in therapeutic settings\"; keywords \"human-robot interaction; neurodevelopmental disorders; socially assistive robots\""
  },
  {
-  "id": "91",
-  "ids": [
-   "91"
-  ],
   "title": "Evaluating Performance and Resource Consumption of REST Frameworks and Execution Environments: Insights and Guidelines for Developers and Companies",
   "authors": "Di Meglio, S.D.; Starace, L.",
   "year": "2024",
@@ -779,10 +615,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "110",
-  "ids": [
-   "110"
-  ],
   "title": "The MyProxy gateway",
   "authors": "Dooley, R.; Stubbs, J.; Basney, J.",
   "year": "2014",
@@ -798,10 +630,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "152",
-  "ids": [
-   "152"
-  ],
   "title": "Property-Based Mutation Testing",
   "authors": "E., Bartocci, Ezio; L., Mariani, Leonardo; D., Ničković, Dejan; D., Yadav, Drishti",
   "year": "2023",
@@ -817,10 +645,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "73",
-  "ids": [
-   "73"
-  ],
   "title": "Enhancing RADIUS based multifactor-factor authentication systems with RESTful API for self-service enrolment",
   "authors": "E., Huseynov, Emin; J.M., Seigneur, Jean Marc",
   "year": "2019",
@@ -836,10 +660,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "65",
-  "ids": [
-   "65"
-  ],
   "title": "Framework to secure the OAuth 2.0 and JSON web token for rest API",
   "authors": "E., Rushdy, Ehab; W.I., Khedr, Walid I.; R.S., Attia, Riham Salah",
   "year": "2021",
@@ -855,10 +675,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "52",
-  "ids": [
-   "52"
-  ],
   "title": "Enhancing blockchain security through natural language processing and real-time monitoring",
   "authors": "F., Salzano, Francesco; R., Pareschi, Remo",
   "year": "2023",
@@ -874,10 +690,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "8",
-  "ids": [
-   "8"
-  ],
   "title": "On mutating UPPAAL timed automata to assess robustness of web services",
   "authors": "F., Siavashi, Faezeh; D., Truscan, Dragos; J., Vain, Jüri",
   "year": "2016",
@@ -893,10 +705,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "4",
-  "ids": [
-   "4"
-  ],
   "title": "Vulnerability assessment of web services with model-based mutation testing",
   "authors": "F., Siavashi, Faezeh; D., Truscan, Dragos; J., Vain, Jüri",
   "year": "2018",
@@ -912,10 +720,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "119",
-  "ids": [
-   "119"
-  ],
   "title": "A Comparative Survey of Mutation Testing Across Large Language Models, REST APIs, and Database Engines",
   "authors": "Falah, Bouchaib; Routaib, Hayat",
   "year": "2025",
@@ -931,10 +735,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "120",
-  "ids": [
-   "120"
-  ],
   "title": "Case Study: Applying Fuzzing to REST APIs in a Large-Scale Industrial Setting",
   "authors": "Fernandes, Leo; Rocha, João Vitor Souza; Wiese, Igor; Correia, João Lucas; Fraga, Ismael Trindade; Pinto, Renato Torres; Barboza, Erick; Fonseca, Baldoino; Ribeiro, Márcio",
   "year": "2025",
@@ -950,10 +750,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "132",
-  "ids": [
-   "132"
-  ],
   "title": "Governify for APIs: SLA-driven ecosystem for API governance",
   "authors": "Gamez-Diaz, Antonio; Fernandez, Pablo; Ruiz-Cortés, Antonio",
   "year": "2019",
@@ -969,10 +765,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "121",
-  "ids": [
-   "121"
-  ],
   "title": "Discovering and Understanding the Security Flaws of Authentication and Authorization in IoT Cloud APIs for Smart Home",
   "authors": "Guo, Minglei; Xiao, Zhenghang; Liu, Xin; Zhuge, Jianwei",
   "year": "2024",
@@ -988,10 +780,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "122",
-  "ids": [
-   "122"
-  ],
   "title": "Beyond the Perimeter: Zero-Trust Architecture as a Framework for Cloud API",
   "authors": "Gupta, R. K.",
   "year": "2025",
@@ -1007,10 +795,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "48",
-  "ids": [
-   "48"
-  ],
   "title": "Leaving the Business Security Burden to LiSEA: A Low-Intervention Security Embedding Architecture for Business APIs",
   "authors": "H., Li, Hang; J., Li, Junhao; Y., Wang, Yulong; C., Zhou, Chunru; M., Yin, Mingyong",
   "year": "2023",
@@ -1026,10 +810,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "21",
-  "ids": [
-   "21"
-  ],
   "title": "Injecting software faults in Python applications: The OpenStack case study",
   "authors": "H., Marques, Henrique; N., Laranjeiro, Nuno; J.R., Bernardino, Jorge Rodrigues",
   "year": "2022",
@@ -1045,11 +825,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "17",
-  "ids": [
-   "17",
-   "41"
-  ],
   "title": "MUSIC: Mutation-based SQL injection vulnerability checking",
   "authors": "H., Shahriar, Hossain; M., Zulkernine, Mohammad",
   "year": "2008",
@@ -1066,10 +841,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "123",
-  "ids": [
-   "123"
-  ],
   "title": "REST-API based DDoS Detection Using Random Forest Classifier in a Platform as a Service Cloud Environment",
   "authors": "Habib, Beenish; Khursheed, Farida",
   "year": "2023",
@@ -1085,10 +856,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "98",
-  "ids": [
-   "98"
-  ],
   "title": "Toolchains for Interoperable BIM Workflows in a Web-Based Integration Platform",
   "authors": "Hagedorn, P.; Block, M.; Zentgraf, S.; Sigalov, K.; König, M.",
   "year": "2022",
@@ -1104,10 +871,6 @@
   "exclusion_evidence": "\"The construction industry is characterized by the diversity of its processes ... collaborative BIM workflows\"; keywords \"BIM; information container; openCDE\""
  },
  {
-  "id": "124",
-  "ids": [
-   "124"
-  ],
   "title": "Twenty-two Years Since Revealing Cross-Site Scripting Attacks: A Systematic Mapping and a Comprehensive Survey",
   "authors": "Hannousse, Abdelhakim and Yahiouche, Salima and Nait-Hamoud, Mohamed Cherif",
   "year": "2022",
@@ -1123,10 +886,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "104",
-  "ids": [
-   "104"
-  ],
   "title": "Remote dynamic reconfiguration of a multi-FPGA system FiC (flow-in-cloud)",
   "authors": "Hironaka, K.; Iizuka, K.; Yamakura, M.; Ben Ahmed, A.; Amano, H.",
   "year": "2021",
@@ -1142,10 +901,6 @@
   "exclusion_evidence": "\"a bare-metal multi-FPGA system called FiC (Flow-in-Cloud)... applied partial reconfiguration (PR) FPGA design flow\"; keywords \"Field programmable gate arrays (FPGA); Interconnection networks; Bitstream compression\"."
  },
  {
-  "id": "107",
-  "ids": [
-   "107"
-  ],
   "title": "Architecting a Software-Defined Storage Platform for Cloud Storage Service",
   "authors": "Huang, M.-J.; Huang, C.-F.; Chen, W.-S.E.",
   "year": "2015",
@@ -1161,10 +916,6 @@
   "exclusion_evidence": "\"the architecture of a new SDS platform called Federator is proposed\"; \"3. Restful APIs for new business extension\"; keywords \"Digital storage; Software-Defined storage; Predictive analytics\"."
  },
  {
-  "id": "26",
-  "ids": [
-   "26"
-  ],
   "title": "Tool for mutation testing of web services",
   "authors": "I., Bluemke, Ilona; A., Sawicki, Artur",
   "year": "2019",
@@ -1180,10 +931,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "9",
-  "ids": [
-   "9"
-  ],
   "title": "Worst-input mutation approach to web services vulnerability testing based on SOAP messages",
   "authors": "J., Chen, Jinfu; H., Wang, Huanhuan; D., Towey, Dave; C., Mao, Chengying; R., Huang, Rubing; Y., Zhan, Yongzhao",
   "year": "2014",
@@ -1199,10 +946,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "11",
-  "ids": [
-   "11"
-  ],
   "title": "A Web services vulnerability testing approach based on combinatorial mutation and SOAP message mutation",
   "authors": "J., Chen, Jinfu; Q., Li, Qing; C., Mao, Chengying; D., Towey, Dave; Y., Zhan, Yongzhao; H., Wang, Huanhuan",
   "year": "2014",
@@ -1218,10 +961,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "59",
-  "ids": [
-   "59"
-  ],
   "title": "An Environment-Specific Prioritization Model for Information-Security Vulnerabilities Based on Risk Factor Analysis",
   "authors": "J., Reyes, Jorge; W., Fuertes, Walter; P., Arévalo, Paco; M., MacAs, Mayra",
   "year": "2022",
@@ -1237,10 +976,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "49",
-  "ids": [
-   "49"
-  ],
   "title": "Sifu Reloaded: An Open-Source Gamified Web-Based CyberSecurity Awareness Platform",
   "authors": "J.C., Paiva, José Carlos; R.A.P., Queirós, Ricardo Alexandre Peixoto; T., Espinha Gasiba, Tiago",
   "year": "2023",
@@ -1256,10 +991,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "37",
-  "ids": [
-   "37"
-  ],
   "title": "Evolutionary mutation testing",
   "authors": "J.J., Domínguez-Jiménez, Juan José; A., Estero-Botaro, Antonia; A., García-Domínguez, Antonio; I., Medina-Bulo, Inmaculada",
   "year": "2011",
@@ -1275,10 +1006,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "23",
-  "ids": [
-   "23"
-  ],
   "title": "Hybrid Scheduling Strategy in Cloud Computing based on Optimization Algorithms",
   "authors": "K., Komal, Komal; G., Goel, Gaurav; M., Kaur, Milanpreet",
   "year": "2021",
@@ -1294,10 +1021,6 @@
   "exclusion_evidence": "\"effective scheduling algorithms remain a key issue in cloud computing\"; \"choose solutions with improved fitness factors, crossover, and mutation operators\""
  },
  {
-  "id": "45",
-  "ids": [
-   "45"
-  ],
   "title": "An Adversarial Machine Learning Approach on Securing Large Language Model with Vigil, an Open-Source Initiative",
   "authors": "K., Pokhrel, Kushal; C.M., Sanin, Cesar Maldonado; S., Md Kowssar Hossain, Sakib; M.R., Islam, Md Rafiqul; E., Szczerbicki, Edward",
   "year": "2024",
@@ -1313,10 +1036,6 @@
   "exclusion_evidence": "\"Vigil is an open-source LLM prompt security scanner, that is accessible as a Python library and REST API\"; keywords \"Prompt Injection; Adversarial Machine Learning; Natural Language Processing\""
  },
  {
-  "id": "81",
-  "ids": [
-   "81"
-  ],
   "title": "TRACER: A platform for securing legacy code",
   "authors": "K., Stroggylos, Konstantinos; D., Mitropoulos, Dimitris; Z., Tzermias, Zacharias; P., Papadopoulos, Panagiotis; F., Rafailidis, Fotios; D., Spinellis, Diomidis; S., Ioannidis, Sotiris; P., Katsaros, Panagiotis",
   "year": "2014",
@@ -1332,10 +1051,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "125",
-  "ids": [
-   "125"
-  ],
   "title": "A framework for checking and mitigating the security vulnerabilities of cloud service RESTful APIs",
   "authors": "Khan, Md Shohel; Siam, Rubaiyat Sha Fardin; Adnan, Muhammad Abdullah",
   "year": "2024",
@@ -1351,10 +1066,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "101",
-  "ids": [
-   "101"
-  ],
   "title": "A Web-Based Monitoring System of Network Security Functions in Blockchain-Based Cloud Security Systems",
   "authors": "Kim, J.J.; Lingga, P.; Jeong, J.P.; Choi, Y.; Park, J.",
   "year": "2022",
@@ -1370,10 +1081,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "126",
-  "ids": [
-   "126"
-  ],
   "title": "A Multi-Agent Approach for REST",
   "authors": "Kim, Myeongsoo and Sinha, Saurabh and Orso, Alessandro",
   "year": "2025",
@@ -1389,10 +1096,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "109",
-  "ids": [
-   "109"
-  ],
   "title": "FTS3 / WebFTS - A Powerful File Transfer Service for Scientific Communities",
   "authors": "Kiryanov, A.; Álvarez Ayllón, A.A.; Keeble, O.",
   "year": "2015",
@@ -1408,10 +1111,6 @@
   "exclusion_evidence": "\"In this article we describe this intuitive new interface, \\\"WebFTS\\\", which allows users to easily schedule and manage large data transfers right from the browser\"; keywords \"Data storage; File transfer; FTS3; WebFTS\"."
  },
  {
-  "id": "108",
-  "ids": [
-   "108"
-  ],
   "title": "FTS3 -A file transfer service for Grids, HPCs and Clouds",
   "authors": "Kiryanov, A.; Álvarez Ayllón, A.A.; Salichos, M.; Keeble, O.",
   "year": "2015",
@@ -1427,10 +1126,6 @@
   "exclusion_evidence": "\"FTS3, the service responsible for globally distributing the majority of the LHC data across the WLCG infrastructure\"; the only relevant mention is \"accessed through our standards-compliant REST API\" and a \"zero configuration\" deployment claim."
  },
  {
-  "id": "105",
-  "ids": [
-   "105"
-  ],
   "title": "Enabling complexity management through merging business process modeling with MBSE",
   "authors": "Konrad, C.; Jacobs, G.; Rasor, R.; Riedel, R.; Katzwinkel, T.; Siebrecht, J.",
   "year": "2019",
@@ -1446,10 +1141,6 @@
   "exclusion_evidence": "\"This paper presents an approach for merging MBSE with business processes\"; keywords \"Complexity management; Integral product architecture; Model based systems engineering; Product development process\"."
  },
  {
-  "id": "151",
-  "ids": [
-   "151"
-  ],
   "title": "RESTestBench: A Benchmark for Evaluating the Effectiveness of LLM-Generated REST API Test Cases from NL Requirements",
   "authors": "L., Kogler, Leon; S., Hangler, Stefan; M., Ehrhart, Maximilian",
   "year": "2026",
@@ -1465,10 +1156,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "28",
-  "ids": [
-   "28"
-  ],
   "title": "A new multi-objective evolutionary algorithm for inter-cloud service composition",
   "authors": "L., Liu, Li; S., Gu, Shuxian; D., Fu, Dongmei; M., Zhang, Miao; R., Buyya, Rajkumar",
   "year": "2018",
@@ -1484,10 +1171,6 @@
   "exclusion_evidence": "\"A new hybrid multi-objective evolutionary algorithm ... LS-NSGA-II-DE\"; \"the differential evolution (DE) algorithm uses the adaptive mutation operator and crossover operator\""
  },
  {
-  "id": "31",
-  "ids": [
-   "31"
-  ],
   "title": "Evolutionary web service composition: A graph-based memetic algorithm",
   "authors": "L.F., Yan, Longfei Felix; Y., Mei, Yi; H., Ma, Hui; M., Zhang, Mengjie",
   "year": "2016",
@@ -1503,10 +1186,6 @@
   "exclusion_evidence": "\"we propose a novel Graph-Based Memetic Algorithm (GBMA) for solving the QoS-aware WSC problems\"; \"overcome the drawbacks of the mutation operator in GraphEvol\""
  },
  {
-  "id": "84",
-  "ids": [
-   "84"
-  ],
   "title": "SOUL system: Secure online USB login system",
   "authors": "Lat, J.A.S.; Bondoc, R.X.R.; Atienza, K.C.V.",
   "year": "2013",
@@ -1522,10 +1201,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "127",
-  "ids": [
-   "127"
-  ],
   "title": "Poster: Automated Dependency Mapping for Web API Security Testing Using Large Language Models",
   "authors": "Li, Wanpeng; Guo, Yuejun",
   "year": "2024",
@@ -1541,10 +1216,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "128",
-  "ids": [
-   "128"
-  ],
   "title": "Morest",
   "authors": "Liu, Yi; Li, Yuekang; Deng, Gelei; Liu, Yang; Wan, Ruiyuan; Wu, Runchao; Ji, Dandan; Xu, Shiheng; Bao, Minli",
   "year": "2022",
@@ -1560,10 +1231,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "96",
-  "ids": [
-   "96"
-  ],
   "title": "Conceptualizing Node.js Projects: A Graph-Oriented Technology-Specific Modeling Method",
   "authors": "Lixandru, B.; Buchmann, R.A.; Ghiran, A.-M.",
   "year": "2023",
@@ -1579,10 +1246,6 @@
   "exclusion_evidence": "\"a modeling method for managing Node.js projects dependencies by adding a semantic analysis layer ... knowledge-driven project management approach\"; keywords \"ADOxx; Dependency management; RDF\""
  },
  {
-  "id": "129",
-  "ids": [
-   "129"
-  ],
   "title": "Test Suites Guided Vulnerability Validation for Node.js Applications",
   "authors": "Luo, Changhua; Li, Penghui; Meng, Wei; Zhang, Chao",
   "year": "2024",
@@ -1598,11 +1261,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "14",
-  "ids": [
-   "14",
-   "36"
-  ],
   "title": "SPaCiTE - Web application testing engine",
   "authors": "M., Büchler, Matthias; J., Oudinet, Johan; A., Pretschner, Alexander",
   "year": "2012",
@@ -1619,10 +1277,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "162",
-  "ids": [
-   "162"
-  ],
   "title": "Performance Analysis of the Fuzzing Method in Detecting API Vulnerabilities in Mobile Healthcare Application X Based on OWASP API Security Top 10",
   "authors": "M., Hakim, Muhammad Ikhwanul",
   "year": "2026",
@@ -1638,10 +1292,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "44",
-  "ids": [
-   "44"
-  ],
   "title": "Unlocking Deeper Understanding: Leveraging Explainable AI for API Anomaly Detection Insights",
   "authors": "M., Jones, Mike; M., Bayesh, Masrufa; S., Jahan, Sharmin",
   "year": "2024",
@@ -1657,10 +1307,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "18",
-  "ids": [
-   "18"
-  ],
   "title": "A hybrid genetic-based task scheduling algorithm for cost-efficient workflow execution in heterogeneous cloud computing environment",
   "authors": "M., Khademi Dehnavi, Mohsen; A., Broumandnia, Ali; M.S., Hosseini Shirvani, Mirsaeid S.; I., Ahanian, I.",
   "year": "2024",
@@ -1676,10 +1322,6 @@
   "exclusion_evidence": "\"a hybrid genetic algorithm (HGA) is presented for reliable and cost-efficient task scheduling ... new crossover and mutation operators for global search\"."
  },
  {
-  "id": "62",
-  "ids": [
-   "62"
-  ],
   "title": "Automation of active reconnaissance phase: An automated API-based port and vulnerability scanner",
   "authors": "M., Malkawi, Malek; T., Özyer, Tansel; R.S., Alhajj, Reda S.",
   "year": "2021",
@@ -1695,10 +1337,6 @@
   "exclusion_evidence": "\"an automated API-based IP and port scanner, service-version enumerator, and vulnerability detection system. This scheme is based on the Network Mapper (Nmap)\"; keywords \"Nmap; Port Scanner; Cyber Reconnaissance\""
  },
  {
-  "id": "72",
-  "ids": [
-   "72"
-  ],
   "title": "A Software Service Supporting Software Quality Forecasting",
   "authors": "M., Manzano, Martí; C.P., Ayala, Claudia P.; C., Gómez, Cristina; L., López, Lidia",
   "year": "2019",
@@ -1714,10 +1352,6 @@
   "exclusion_evidence": "\"we have developed a modular and flexible forecasting service ... for creating and exploiting forecasting models based on methods like ARIMA or ETS\"; \"exposes its functionalities through a REST API\""
  },
  {
-  "id": "154",
-  "ids": [
-   "154"
-  ],
   "title": "Detecting and Mitigating Flakiness in REST API Fuzzing",
   "authors": "M., Zhang, Man; C., Shen, Chongyang; A., Arcuri, Andrea",
   "year": "2026",
@@ -1733,10 +1367,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "2",
-  "ids": [
-   "2"
-  ],
   "title": "Many-Objective Optimization-Based Task Scheduling in Hybrid Cloud Environments",
   "authors": "M., Zhao, Mengkai; Z., Zhang, Zhixia; T., Fan, Tian; W., Guo, Wanwan; Z., Cui, Zhihua",
   "year": "2023",
@@ -1752,10 +1382,6 @@
   "exclusion_evidence": "\"a many-objective hybrid cloud task scheduling optimization model (HCTSO)... a dynamic range mutation operator are designed to extend the search range\"."
  },
  {
-  "id": "71",
-  "ids": [
-   "71"
-  ],
   "title": "API vulnerabilities in cloud computing platform: Attack and detection",
   "authors": "M.A., Mohd Ariffin, Muhammad Azizi; M.F., Ibrahim, Mohd Faisal; Z., Kasiran, Zolidah",
   "year": "2020",
@@ -1771,10 +1397,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "47",
-  "ids": [
-   "47"
-  ],
   "title": "Implementation of two-factor user authentication in computer systems; Implementación de la autenticación del usuario a través de dos factores en sistemas informáticos",
   "authors": "M.D., Tomić, Mihailo D.; O.M., Radojević, Olivera M.",
   "year": "2024",
@@ -1790,10 +1412,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "70",
-  "ids": [
-   "70"
-  ],
   "title": "A NEW CAREER PATH PROFILING SYSTEM USING DATA FUSION AND ESCO SERVICES APO",
   "authors": "M.I., Dascəlu, Maria Iuliana; I.A., Nanău, Ioana Antonia; I.C., Stǎnicǎ, Iulia Cristina; E., Lazarou, Elisabeth; C.N., Bodea, Constanta Nicoleta",
   "year": "2021",
@@ -1809,10 +1427,6 @@
   "exclusion_evidence": "\"a new system for career recommendations based on advanced analytics of users' profile ... the inference mechanism built in the European qualifications ontology ESCO\"; venue: eLearning and Software for Education Conference"
  },
  {
-  "id": "83",
-  "ids": [
-   "83"
-  ],
   "title": "Cyber security for service oriented architectures in a Web 2.0 world: An overview of SOA vulnerabilities in financial services",
   "authors": "Masood, A.",
   "year": "2013",
@@ -1828,10 +1442,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "60",
-  "ids": [
-   "60"
-  ],
   "title": "Data Mining Model Framework for GTD (Global Terrorism Database)",
   "authors": "N., Thakur, Naman; S.S., Saini, Satnam Singh; A.K., Pathak, Abhishek Kumar",
   "year": "2022",
@@ -1847,10 +1457,6 @@
   "exclusion_evidence": "\"The Data Science Model is based on the Global Terrorism Database (GTD) which contains the records off terrorist attacks since 1970\"; keywords \"Counter-terrorism; Data Mining\""
  },
  {
-  "id": "56",
-  "ids": [
-   "56"
-  ],
   "title": "Modern, Secure Application Programming Interface Implementation using RFC 6238 and RFC 7617",
   "authors": "N.D., Wirasbawa, Nicholas Dwiarto; Y., Khaeruzzaman, Yaman; A., Waworuntu, Alexander",
   "year": "2023",
@@ -1866,10 +1472,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "87",
-  "ids": [
-   "87"
-  ],
   "title": "Automated Network Planner Based on Digital Twin for Wavelength Division Multiplexing Network",
   "authors": "Naskar, S.; Majhi, G.",
   "year": "2025",
@@ -1885,10 +1487,6 @@
   "exclusion_evidence": "\"presents a network planning tool based on Digital Twin technology for Dense Wavelength Division Multiplexing (DWDM) networks\"; keywords \"DWDM; OTN; Transparent optical networks\""
  },
  {
-  "id": "130",
-  "ids": [
-   "130"
-  ],
   "title": "An approach for benchmarking the security of web service frameworks",
   "authors": "Oliveira, Rui André; Raga, Miquel Martínez; Laranjeiro, Nuno; Vieira, Marco",
   "year": "2020",
@@ -1904,10 +1502,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "79",
-  "ids": [
-   "79"
-  ],
   "title": "Towards automatic real time identification of malicious posts on Facebook",
   "authors": "P., Dewan, Prateek; P., Kumaraguru, Ponnurangam",
   "year": "2015",
@@ -1923,10 +1517,6 @@
   "exclusion_evidence": "\"we characterized a dataset of 4.4 million public posts generated on Facebook ... and identified 11,217 malicious posts containing URLs\"; keywords: Online social networks (OSNs); Textual content"
  },
  {
-  "id": "77",
-  "ids": [
-   "77"
-  ],
   "title": "Facebook Inspector (FbI): Towards automatic real-time detection of malicious content on Facebook",
   "authors": "P., Dewan, Prateek; P., Kumaraguru, Ponnurangam",
   "year": "2017",
@@ -1942,10 +1532,6 @@
   "exclusion_evidence": "\"we collect and characterize a dataset of 4.4 million public posts generated on Facebook\"; \"we implement Facebook Inspector, a REST API-based browser plug-in\"; keywords: Malicious content; Social networking (online)"
  },
  {
-  "id": "64",
-  "ids": [
-   "64"
-  ],
   "title": "SDN Enabled QoE and Security Framework for Multimedia Applications in 5G Networks",
   "authors": "P., Krishnan, Prabhakar; K., Jain, K.; P.G., Jose, Pramod George; K., Achuthan, Krishnashree; R., Buyya, Rajkumar",
   "year": "2021",
@@ -1961,10 +1547,6 @@
   "exclusion_evidence": "\"we propose an SDN/NFV ... framework called STREK\"; \"a lightweight adaptable hybrid cipher scheme called TREK, and an open RESTful API for applications to deploy custom policies\"; keywords: 5G, Network slicing, NFV, Lightweight cryptography"
  },
  {
-  "id": "55",
-  "ids": [
-   "55"
-  ],
   "title": "Microusity: A testing tool for Backends for Frontends (BFF) Microservice Systems",
   "authors": "P., Rattanukul, Pattarakrit; C., Makaranond, Chansida; P., Watanakulcharus, Pumipat; C., Ragkhitwetsagul, Chaiyong; T., Nearunchorn, Tanapol; V., Visoottiviseth, Vasaka; M., Choetkiertikul, Morakot; T., Sunetnanta, Thanwadee",
   "year": "2023",
@@ -1980,10 +1562,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "12",
-  "ids": [
-   "12"
-  ],
   "title": "Mutation at the multi-class and system levels",
   "authors": "P., Reales Mateo, Pedro; M., Polo, Macario; J., Offutt, Jeff",
   "year": "2013",
@@ -1999,10 +1577,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "15",
-  "ids": [
-   "15"
-  ],
   "title": "Mutation at system and functional levels",
   "authors": "P.R., Mateo, Pedro Reales; M., Polo, Macario; J., Offutt, Jeff",
   "year": "2010",
@@ -2018,10 +1592,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "34",
-  "ids": [
-   "34"
-  ],
   "title": "Testing the adherence of enterprise web applications to transactional patterns",
   "authors": "P.R.F., Nunes, Paulo R.F.; A.C., Melo, Ana C.V.",
   "year": "2012",
@@ -2037,10 +1607,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "32",
-  "ids": [
-   "32"
-  ],
   "title": "Testing discovered web services automatically",
   "authors": "P.S., Karagoz, P. Senkul; S., Utku, Selma",
   "year": "2014",
@@ -2056,10 +1622,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "131",
-  "ids": [
-   "131"
-  ],
   "title": "Augmenting API Security Testing with Automated LLM-Driven Test Generation",
   "authors": "Pasca, Emil Marian; Erdei, Rudolf; Delinschi, Daniela; Matei, Oliviu",
   "year": "2024",
@@ -2075,10 +1637,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "97",
-  "ids": [
-   "97"
-  ],
   "title": "Teaching Guide for Beginnings in DevOps and Continuous Delivery in AWS Focused on the Society 5.0 Skillset",
   "authors": "Pastrana Pardo, M.A.; Erazo, H.A.O.; Lozada, C.A.C.",
   "year": "2022",
@@ -2094,10 +1652,6 @@
   "exclusion_evidence": "\"presents a didactic guide that allows the adoption of good development practices, strengthening soft and technical skills ... within systems engineering programs\"; keywords \"teaching guide; society 50; CI; CD\""
  },
  {
-  "id": "93",
-  "ids": [
-   "93"
-  ],
   "title": "SLA-Wizard - Automated Configuration of RESTful API Gateways Based on SLAs",
   "authors": "Peluaga Lozada, I.; Fernandez, P.; García, J.M.",
   "year": "2024",
@@ -2113,10 +1667,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "89",
-  "ids": [
-   "89"
-  ],
   "title": "TECHNICAL GUIDE TO SUPPORT THE DEVELOPMENT OF SECURE RESTFUL APIS",
   "authors": "Pita, P.; Bruno, L.",
   "year": "2025",
@@ -2132,10 +1682,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "133",
-  "ids": [
-   "133"
-  ],
   "title": "EVALUATION OF FUZZING ON WEB API FROM OFFENSIVE AND DEFENSIVE PERSPECTIVES",
   "authors": "Putera, Danar Gumilang; Harwahyu, Ruki",
   "year": "2024",
@@ -2151,10 +1697,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "13",
-  "ids": [
-   "13"
-  ],
   "title": "Combinatorial mutation approach to web service vulnerability testing based on SOAP message mutations",
   "authors": "Q., Li, Qing; J., Chen, Jinfu; Y., Zhan, Yongzhao; C., Mao, Chengying; H., Wang, Huanhuan",
   "year": "2012",
@@ -2170,10 +1712,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "25",
-  "ids": [
-   "25"
-  ],
   "title": "TDD4Fog: A Test-Driven Software Development Platform for Fog Computing Systems",
   "authors": "R., Li, Rui; X., Liu, Xiao; J.X., Zheng, James Xi; C., Zhang, Chong; H., Liu, Huai",
   "year": "2020",
@@ -2189,10 +1727,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "54",
-  "ids": [
-   "54"
-  ],
   "title": "Automatic Detection of API Access Control Vulnerabilities in Decentralized Web3 Applications",
   "authors": "R., Patan, Rizwan; R.M., Parizi, Reza Meimandi",
   "year": "2023",
@@ -2208,10 +1742,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "40",
-  "ids": [
-   "40"
-  ],
   "title": "Requirement model-based mutation testing for web service",
   "authors": "R., Wang, Rui; N., Huang, Ning",
   "year": "2008",
@@ -2227,10 +1757,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "43",
-  "ids": [
-   "43"
-  ],
   "title": "Evaluating the Impact of Conventional Code Analysis Against Large Language Models in API Vulnerability Detection",
   "authors": "R., Ylldlrlm, Recep; K., Aydln, Kerem; O., Çetin, Orçun",
   "year": "2024",
@@ -2246,10 +1772,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "95",
-  "ids": [
-   "95"
-  ],
   "title": "Conversation Disentanglement As-a-Service",
   "authors": "Riggio, E.; Raglianti, M.; Lanza, M.",
   "year": "2023",
@@ -2265,10 +1787,6 @@
   "exclusion_evidence": "\"Associating messages to conversations is called conversation disentanglement, a useful and necessary pre-processing step to analyze datasets of instant messages\"; keywords \"conversation disentanglement; instant messaging\""
  },
  {
-  "id": "150",
-  "ids": [
-   "150"
-  ],
   "title": "Hybrid Fault-Driven Mutation Testing for Python",
   "authors": "S., Alimadadi, Saba; G., Gharachorlu, Golnaz",
   "year": "2026",
@@ -2284,10 +1802,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "66",
-  "ids": [
-   "66"
-  ],
   "title": "IBM PAIRS: Scalable big geospatial-temporal data and analytics as-a-service",
   "authors": "S., Lu, Siyuan; H.F., Hamann, Hendrik F.",
   "year": "2021",
@@ -2303,10 +1817,6 @@
   "exclusion_evidence": "\"The rapid growth of geospatial-temporal data from sources like satellites, drones, weather modeling, IoT sensors\"; \"a new paradigm for platforms and services is required\" (scalability, harmonization, pixel-level search)"
  },
  {
-  "id": "63",
-  "ids": [
-   "63"
-  ],
   "title": "Preventing Distributed Denial of Service Attacks in Software Defined Mesh Networks",
   "authors": "S., Mani, Santosh; M.J., Nene, Manisha Jitendra",
   "year": "2021",
@@ -2322,10 +1832,6 @@
   "exclusion_evidence": "\"using SDN capabilities and sFlow-RT application, Distributed Denial of Service (DDoS) attacks is detected and consequently mitigated by using REST API to implement Policy Based Flow Management (PBFM)\"; keywords: Mesh networking, Flow tables, Backbone network"
  },
  {
-  "id": "1",
-  "ids": [
-   "1"
-  ],
   "title": "Security Testing of RESTful APIs with Test Case Mutation",
   "authors": "S., Salva, Sébastien; J., Sue, Jarod",
   "year": "2024",
@@ -2341,10 +1847,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "155",
-  "ids": [
-   "155"
-  ],
   "title": "Detecting Server-Side Request Forgery (SSRF) Vulnerabilities in REST API Fuzz Testing",
   "authors": "S., Seran, Susruthan; G., Bhandari, Guru; A., Arcuri, Andrea",
   "year": "2026",
@@ -2360,10 +1862,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "24",
-  "ids": [
-   "24"
-  ],
   "title": "Mutative BFO-Based Scheduling Algorithm for Cloud Environment",
   "authors": "S., Singhal, Saurabh; A., Sharma, Ashish",
   "year": "2021",
@@ -2379,10 +1877,6 @@
   "exclusion_evidence": "\"a job scheduling algorithm for mapping resources to the job is proposed by applying the mutation operator to Bacterial Foraging Optimization (BFO) algorithm\""
  },
  {
-  "id": "53",
-  "ids": [
-   "53"
-  ],
   "title": "Comprehensive Analysis and Remediation of Insecure Direct Object References (IDOR) Vulnerabilities in Android APIs",
   "authors": "S., Yulianto, Semi; R.R., Abdullah, Roni Reza; B., Soewito, Benfano",
   "year": "2023",
@@ -2398,10 +1892,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "20",
-  "ids": [
-   "20"
-  ],
   "title": "A Novel Multi-Objective Optimization Based Evolutionary Algorithm for Optimize the Services of Internet of Everything",
   "authors": "S.P., Singh, Shailendra Pratap; G.J., Dhiman, Gaurav Jay; W.G., Viriyasitavat, Wattana Golf; S., Kautish, Sandeep",
   "year": "2022",
@@ -2417,10 +1907,6 @@
   "exclusion_evidence": "\"a new rapid mutation operator is incorporated with multi-objective differential evolution (MODE) to overcome the stagnation of the local optimum\"."
  },
  {
-  "id": "82",
-  "ids": [
-   "82"
-  ],
   "title": "Design and Implementation of a forensic framework for Cloud in OpenStack cloud platform",
   "authors": "Saibharath, S.; Geethakumari, G.",
   "year": "2014",
@@ -2436,10 +1922,6 @@
   "exclusion_evidence": "\"a forensic framework has been developed to do cloud forensics in OpenStack for infrastructure as a service model using the existing forensic tools\"; keywords: Cloud forensics; Digital forensics; Computer forensics"
  },
  {
-  "id": "135",
-  "ids": [
-   "135"
-  ],
   "title": "SUACC-IoT: secure unified authentication and access control system based on capability for IoT",
   "authors": "Sivaselvan, N.; Bhat, K. Vivekananda; Rajarajan, Muttukrishnan; Das, Ashok Kumar; Rodrigues, Joel J. P. C.",
   "year": "2022",
@@ -2450,15 +1932,11 @@
    "RQ4"
   ],
   "provenance": "slr-update",
-  "decision": "excluded",
-  "exclusion_reason": "Borderline but off-scope: the object of study is a capability-based authentication and access control protocol for IoT devices, not testing or security evaluation of APIs, web services, or mutation testing; the parent should re-check if the paper turns out to target RESTful service invocation.",
-  "exclusion_evidence": "Title: \"secure unified authentication and access control system based on capability for IoT\"; venue Cluster Computing"
+  "decision": "included",
+  "exclusion_reason": "",
+  "exclusion_evidence": ""
  },
  {
-  "id": "136",
-  "ids": [
-   "136"
-  ],
   "title": "Automated Testing of Access Control in RESTful",
   "authors": "Stroggylos, Kostas and others",
   "year": "2014",
@@ -2474,10 +1952,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "137",
-  "ids": [
-   "137"
-  ],
   "title": "Mutation Testing of WS-BPEL",
   "authors": "Sun, Chang-ai and others",
   "year": "2017",
@@ -2493,10 +1967,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "68",
-  "ids": [
-   "68"
-  ],
   "title": "SADM-SDNC: security anomaly detection and mitigation in software-defined networking using C-support vector classification",
   "authors": "T., Jafarian, Tohid; M., Masdari, Mohammad; A., Ghaffari, Ali; K., Majidzadeh, Kambiz",
   "year": "2021",
@@ -2512,10 +1982,6 @@
   "exclusion_evidence": "\"a novel multi-stage modular approach is proposed for detecting and mitigating security anomalies in SDN environment (SADM-SDNC)\"; \"uses NetFlow protocol for gathering information\"; \"thanks to utilizing REST API and Static Entry Pusher\""
  },
  {
-  "id": "156",
-  "ids": [
-   "156"
-  ],
   "title": "WuppieFuzz: Coverage-Guided, Stateful REST API Fuzzing",
   "authors": "T., Rooijakkers, Thomas; A., Nijsten, Anne; C., Daniele, Cristian; E., Weitenberg, Erieke; R., Groenewegen, Ringo; A., Melissen, Arthur",
   "year": "2026",
@@ -2531,10 +1997,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "61",
-  "ids": [
-   "61"
-  ],
   "title": "An Automated Vulnerability Assessment Approach for WebAPI that Considers Requests and Responses",
   "authors": "T., Taya, Toru; M., Hanada, Masaki; Y., Murakami, Yoichi; A., Waseda, Atsushi; Y., Ishida, Yuki; T., Mimura, Takao; M., Kim, Moowan; E., Nunohiro, Eiji",
   "year": "2022",
@@ -2550,10 +2012,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "16",
-  "ids": [
-   "16"
-  ],
   "title": "Protocol-based testing of firewalls",
   "authors": "T., Tuglular, Tugkan; F., Belli, Fevzi",
   "year": "2009",
@@ -2569,10 +2027,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "138",
-  "ids": [
-   "138"
-  ],
   "title": "Vulnerabilities and Secure Design Strategies in RESTful Web APIs: A Systematic Literature Review",
   "authors": "Tamariz-Moreno, A. Michelle; Carrera-Colorado, Eduardo; Ocharán-Hernández, Jorge Octavio; Pérez-Arriaga, Juan Carlos; Limón, Xavier",
   "year": "2025",
@@ -2588,10 +2042,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "157",
-  "ids": [
-   "157"
-  ],
   "title": "RESTing-LLAMA: Large Language Model Based REST API Fuzzing",
   "authors": "V., Gadey, Varun; C., Sendner, Christoph; K., Zimmermann, Keven; A., Dmitrienko, Alexandra",
   "year": "2026",
@@ -2607,10 +2057,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "90",
-  "ids": [
-   "90"
-  ],
   "title": "Monitoring Software Tool to Prevent Data Leaks in a RESTful API",
   "authors": "Valencia, R.E.C.; Villegas, A.C.; Morales, A.F.; Carmona, C.Á.",
   "year": "2025",
@@ -2626,10 +2072,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "139",
-  "ids": [
-   "139"
-  ],
   "title": "Enhancing Microservices Security with Token-Based Access Control Method",
   "authors": "Venčkauskas, Algimantas; Kukta, Donatas; Grigaliūnas, Šarūnas; Brūzgienė, Rasa",
   "year": "2023",
@@ -2645,10 +2087,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "27",
-  "ids": [
-   "27"
-  ],
   "title": "Cost-Driven Scheduling for Deadline-Based Workflow Across Multiple Clouds",
   "authors": "W., Guo, Wenzhong; B., Lin, Bing; G., Chen, Guolong; Y., Chen, Yuzhong; F., Liang, Feng",
   "year": "2018",
@@ -2664,10 +2102,6 @@
   "exclusion_evidence": "\"proposes a scheduling strategy for a deadline-constrained scientific workflow across multiple clouds\"; \"randomly single point mutation operator of the genetic algorithm\""
  },
  {
-  "id": "142",
-  "ids": [
-   "142"
-  ],
   "title": "Large Language Model-Powered Protected Interface Evasion: Automated Discovery of Broken Access Control Vulnerabilities in Internet of Things Devices",
   "authors": "Wang, Enze; Xie, Wei; Li, Shuhuan; Liu, Runhao; Zhou, Yuan; Wang, Zhenhua; Ma, Shuoyoucheng; Yang, Wantong; Wang, Baosheng",
   "year": "2025",
@@ -2683,10 +2117,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "140",
-  "ids": [
-   "140"
-  ],
   "title": "If It’s Not Secure, It Should Not Compile: Preventing DOM-Based XSS in Large-Scale Web Development with API Hardening",
   "authors": "Wang, Pei; Bangert, Julian; Kern, Christoph",
   "year": "2021",
@@ -2702,10 +2132,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "141",
-  "ids": [
-   "141"
-  ],
   "title": "Beyond REST: Introducing APIF for Comprehensive API Vulnerability Fuzzing",
   "authors": "Wang, Yu; Xu, Yue",
   "year": "2024",
@@ -2721,10 +2147,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "3",
-  "ids": [
-   "3"
-  ],
   "title": "Preserving privacy while revealing thumbnail for content-based encrypted image retrieval in the cloud",
   "authors": "X., Chai, Xiuli; Y., Wang, Yinjing; Z., Gan, Zhihua; X., Chen, Xiuhui; Y., Zhang, Yushu",
   "year": "2022",
@@ -2740,10 +2162,6 @@
   "exclusion_evidence": "\"a thumbnail preserving encryption (TPE) based on genetic algorithm ... through crossover and mutation operators of the genetic algorithm\"."
  },
  {
-  "id": "6",
-  "ids": [
-   "6"
-  ],
   "title": "Cloud computing resource scheduling and leasing algorithm based on extreme price filter",
   "authors": "X., Liu, Xiaoming; L., Zonghui, Li; W., Junjie, Wang; X., Xujiang, Xu",
   "year": "2017",
@@ -2759,10 +2177,6 @@
   "exclusion_evidence": "\"cloud computing virtual resource leasing algorithm considering about extreme price filtering ... non-uniform mutation operator has been used to make local operating adjusting\"."
  },
  {
-  "id": "143",
-  "ids": [
-   "143"
-  ],
   "title": "Effective REST APIs Testing with Error Message Analysis",
   "authors": "Xu, Lixin; Wu, Huayao; Pan, Zhenyu; Xu, Tongtong; Wang, Shaohua; Niu, Xintao; Nie, Changhai",
   "year": "2025",
@@ -2778,10 +2192,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "7",
-  "ids": [
-   "7"
-  ],
   "title": "A mutation approach of detecting SQL injection vulnerabilities",
   "authors": "Y., Huang, Yanyu; C., Fu, Chuan; X., Chen, Xuan; H., Guo, Hao; X., He, Xiaoyu; J., Li, Jingwei; Z., Liu, Zheli",
   "year": "2017",
@@ -2797,10 +2207,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "161",
-  "ids": [
-   "161"
-  ],
   "title": "API Security Based on Automatic OpenAPI Mapping",
   "authors": "Y., Levi, Yarin; R., Dubin, Ran",
   "year": "2026",
@@ -2816,10 +2222,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "29",
-  "ids": [
-   "29"
-  ],
   "title": "RNA-TVcurve: A Web server for RNA secondary structure comparison based on a multi-scale similarity of its triple vector curve representation",
   "authors": "Y., Li, Ying; X., Shi, Xiaohu; Y., Liang, Yanchun; J., Xie, Juan; Y., Zhang, Yu; Q., Ma, Qin",
   "year": "2017",
@@ -2835,10 +2237,6 @@
   "exclusion_evidence": "\"An alignment-free RNA comparison algorithm was proposed\"; \"detection of single-point mutation based on secondary structure\""
  },
  {
-  "id": "78",
-  "ids": [
-   "78"
-  ],
   "title": "ControllerSEPA: A security-enhancing SDN controller plug-in for OpenFlow applications",
   "authors": "Y., Tseng, Yuchia; Z., Zhang, Zonghua; F., Naït-Abdesselam, Farid",
   "year": "2016",
@@ -2854,10 +2252,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "35",
-  "ids": [
-   "35"
-  ],
   "title": "An improved genetic algorithm of web services composition with QOS",
   "authors": "Y., Zhang, Yanyan; H., Xiong, Hailing; Y., Zhang, Yongchun",
   "year": "2012",
@@ -2873,10 +2267,6 @@
   "exclusion_evidence": "\"A web service composition method based on the adaptive genetic operator was proposed\"; \"Adaptive crossover and mutation operator were designed according to the individual adaptability\""
  },
  {
-  "id": "144",
-  "ids": [
-   "144"
-  ],
   "title": "Feedback-Guided API Fuzzing of 5G Network",
   "authors": "Yang, Tianchang; K S, Sathiyajith; Arumugam, Ashwin Senthil; Hussain, Syed Rafiul",
   "year": "2025",
@@ -2892,10 +2282,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "19",
-  "ids": [
-   "19"
-  ],
   "title": "NSGA-II-AMO: A Faster Genetic Algorithm for QWSCP",
   "authors": "Z., Feng, Zehui; B., Wang, Bei; M., Chen, Mingjian; Q., Chen, Qi",
   "year": "2023",
@@ -2911,10 +2297,6 @@
   "exclusion_evidence": "\"QoS-driven web service composition problem (QWSCP) ... uses an adaptive mutation operator to complete the mutation process when generating children in the NSGA-II algorithm\"."
  },
  {
-  "id": "158",
-  "ids": [
-   "158"
-  ],
   "title": "Spec2SeqFuzz: A Category Prediction-Guided Approach for Stateful Multi-Step REST API Fuzzing",
   "authors": "Z., He, Zhuofeng; S., Shang, Sunpei; Y., Guo, Yumeng; A., Zhou, Aojie",
   "year": "2026",
@@ -2930,10 +2312,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "46",
-  "ids": [
-   "46"
-  ],
   "title": "Restlogic: Detecting logic vulnerabilities in cloud rest apis",
   "authors": "Z., Wang, Ziqi; W., Tian, Weihan; B., Cui, Baojiang",
   "year": "2024",
@@ -2949,10 +2327,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "145",
-  "ids": [
-   "145"
-  ],
   "title": "Adaptive Hypermutation for Search-Based System Test Generation: A Study on REST APIs with EvoMaster",
   "authors": "Zhang, Man; Arcuri, Andrea",
   "year": "2021",
@@ -2968,10 +2342,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "147",
-  "ids": [
-   "147"
-  ],
   "title": "RESTLess: Enhancing State-of-the-Art REST API Fuzzing With LLMs in Cloud Service Computing",
   "authors": "Zheng, Tao; Shao, Jiang; Dai, Jinqiao; Jiang, Shuyu; Chen, Xingshu; Shen, Changxiang",
   "year": "2024",
@@ -2987,10 +2357,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "146",
-  "ids": [
-   "146"
-  ],
   "title": "KubeFuzzer: Automating RESTful API Vulnerability Detection in Kubernetes",
   "authors": "Zheng, Tao; Tang, Rui; Chen, Xingshu; Shen, Changxiang",
   "year": "2024",
@@ -3006,10 +2372,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "134",
-  "ids": [
-   "134"
-  ],
   "title": "Two Stage Deep Learning Based Stacked Ensemble Model for Web Application Security",
   "authors": "",
   "year": "2022",
@@ -3025,10 +2387,6 @@
   "exclusion_evidence": ""
  },
  {
-  "id": "148",
-  "ids": [
-   "148"
-  ],
   "title": "Enhancing REST API Fuzzing with Access Policy Violation Checks and Injection Attacks",
   "authors": "Ö., Şahin, Ömür; M., Zhang, Man; A., Arcuri, Andrea",
   "year": "2026",

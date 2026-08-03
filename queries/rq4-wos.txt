@@ -2,12 +2,12 @@
 #
 # What strategies are used to mitigate vulnerabilities in RESTful APIs?
 #
-# This is the string as published with the review. The filters on publication
-# year, document type and language were applied through the Web of Science interface at
-# search time and are not part of the string; set them there.
+# The filters on publication year (2000 to 2026), document type (article,
+# conference paper, review, book chapter) and language (English) are set
+# through the Web of Science interface and are not part of the string below.
 #
-# Paste the block below into the TS field. Line breaks are for reading
-# only; the interface treats the string as one line.
+# Paste the block into the TS field. Line breaks are for reading only;
+# the interface treats the string as one line.
 
 TS=("REST* API*" OR "Cloud* API*" OR "Web API*") AND TS=(vulnerabilit* OR "security
 threat*" OR attack*) AND TS=("mitigation strateg*" OR "security framework*" OR "defense

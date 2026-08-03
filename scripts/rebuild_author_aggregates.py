@@ -6,7 +6,7 @@ authors_long.csv, autores_mas_productivos.csv and coautoria_edge_list.csv were
 last derived on 2026-05-03, before the August 2026 citation-index pass and
 before the language exclusion. The figures built from them therefore described
 a corpus that no longer exists. This script re-derives all three from
-corpus_unificado.csv so that every author-level figure covers the same records
+the deposited corpus so that every author-level figure covers the same records
 as the rest of the bibliometric analysis.
 
 Author strings are taken from the "Authors" field and split on ";". Records
@@ -26,7 +26,7 @@ from pathlib import Path
 import pandas as pd
 
 BASE = Path(__file__).resolve().parent
-BIBLIO = BASE / "biblio_output"
+BIBLIO = BASE.parent / "data"   # the deposited corpus and aggregates
 
 
 def backup(path: Path) -> None:
@@ -71,7 +71,9 @@ def author_key(name: str) -> tuple[str, str] | None:
 
 
 def main() -> int:
-    corpus = pd.read_csv(BIBLIO / "corpus_unificado.csv")
+    corpus = pd.read_csv(BIBLIO / "corpus.csv").rename(
+        columns={"authors": "Authors", "rq": "RQ", "id": "Article_ID"}
+    )
 
     long_rows: list[dict] = []
     per_article: list[list[str]] = []
