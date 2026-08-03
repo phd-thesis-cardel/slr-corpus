@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "Systematic review corpus: mutation testing for RESTful API security"
+message: "If you use this corpus, please cite it."
+type: dataset
+authors:
+  - family-names: "Delgado S."
+    given-names: "Carlos A."
+    affiliation: "Universidad del Valle"
+abstract: >-
+  Search queries, per-study screening decisions with supporting evidence, and
+  derived aggregate tables for a systematic literature review on mutation
+  testing applied to the security evaluation of RESTful APIs, covering the
+  publication window 2000 to 2026.
+keywords:
+  - systematic literature review
+  - mutation testing
+  - RESTful API security
+  - PRISMA 2020
+license: CC-BY-4.0
